@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDHNR5DW95"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DDHNR5DW95');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GlobalPing | Free Global Internet Speed Test & Network Toolkit</title>
@@ -21,7 +30,7 @@
         <a href="pages/global-rankings.html" data-i18n="navRank">Rankings</a>
         <a href="pages/public-wifi-security.html" data-i18n="navSec">Security</a>
       </div>
-      <div class="nav-actions"><a class="btn ghost" href="pages/about-privacy.html">EN / 中文</a></div>
+      <div class="nav-actions"><a class="btn ghost" href="pages/about-privacy.html">EN</a></div>
     </nav>
   </header>
 
@@ -29,7 +38,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <span class="eyebrow"><span class="dot"></span> Live network intelligence</span>
+          <span class="eyebrow" data-i18n="heroEyebrow"><span class="dot"></span> Live network intelligence</span>
           <h1 data-i18n="heroTitle">Test your internet speed anywhere in the world.</h1>
           <p class="lead" data-i18n="heroLead">GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics in one static, privacy-conscious toolkit.</p>
           <div class="tabs">
@@ -58,8 +67,8 @@
     <section class="section">
       <div class="container">
         <div class="tabs" style="justify-content:space-between;margin-bottom:18px">
-          <div><h2>Global speed snapshot</h2><p class="muted">Top fixed broadband regions from the latest local dataset.</p></div>
-          <a class="btn" href="pages/global-rankings.html">View All Rankings</a>
+          <div><h2 data-i18n="snapshotTitle">Global speed snapshot</h2><p class="muted" data-i18n="snapshotDesc">Top fixed broadband regions from the latest local dataset.</p></div>
+          <a class="btn" href="pages/global-rankings.html" data-i18n="btnViewAll">View All Rankings</a>
         </div>
         <div class="grid grid-4" data-top-countries></div>
       </div>
@@ -67,7 +76,7 @@
 
     <section class="section">
       <div class="container">
-        <h2>Network tools and guides</h2>
+        <h2 data-i18n="toolsTitle">Network tools and guides</h2>
         <div class="grid grid-3">
           <a class="card tool-card" href="pages/vpn-reviews.html"><div class="icon">盾</div><h3>Proxy & VPN Reviews</h3><p class="muted">Compare speed, privacy, price and use cases across leading providers.</p></a>
           <a class="card tool-card" href="pages/public-wifi-security.html"><div class="icon">锁</div><h3>Public WiFi Safety</h3><p class="muted">A practical checklist for airports, hotels, cafes and shared networks.</p></a>
@@ -97,9 +106,9 @@
   <footer class="footer">
     <div class="container footer-grid">
       <div><a class="brand" href="index.html"><span class="brand-mark">G</span> GlobalPing</a><p class="muted">Free, global and privacy-aware network performance tools for everyone.</p></div>
-      <div><strong>Tools</strong><a href="pages/speed-test.html">Speed Test</a><a href="pages/network-toolkit.html">Network Toolkit</a><a href="pages/dns-guide.html">DNS Guide</a></div>
-      <div><strong>Insights</strong><a href="pages/global-rankings.html">Global Rankings</a><a href="pages/vpn-reviews.html">VPN Reviews</a><a href="pages/country-detail.html">Country Detail</a></div>
-      <div><strong>Trust</strong><a href="pages/public-wifi-security.html">WiFi Safety</a><a href="pages/network-troubleshooting.html">Troubleshooting</a><a href="pages/about-privacy.html">Privacy & Disclosure</a></div>
+      <div><strong data-i18n="footerTools">Tools</strong><a href="pages/speed-test.html" data-i18n="navSpeed">Speed Test</a><a href="pages/network-toolkit.html" data-i18n="navTools">Network Toolkit</a><a href="pages/dns-guide.html">DNS Guide</a></div>
+      <div><strong data-i18n="footerInsights">Insights</strong><a href="pages/global-rankings.html" data-i18n="navRank">Global Rankings</a><a href="pages/vpn-reviews.html">VPN Reviews</a><a href="pages/country-detail.html">Country Detail</a></div>
+      <div><strong data-i18n="footerTrust">Trust</strong><a href="pages/public-wifi-security.html">WiFi Safety</a><a href="pages/network-troubleshooting.html">Troubleshooting</a><a href="pages/about-privacy.html">Privacy & Disclosure</a></div>
     </div>
   </footer>
 </body>

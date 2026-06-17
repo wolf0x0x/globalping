@@ -5,7 +5,8 @@
   "description": "Static GlobalPing network speed test and tools website for globalping.xyz",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check-links.mjs"
+    "check": "node scripts/check-links.mjs",
+    "check:release": "node scripts/check-release.mjs"
   },
   "devDependencies": {}
 }

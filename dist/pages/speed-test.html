@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDHNR5DW95"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DDHNR5DW95');
+  </script>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Speed Test | GlobalPing</title>
   <meta name="description" content="Measure browser download speed, upload estimate, ping and jitter with local history stored on your device.">
@@ -10,32 +19,32 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8695398658548679" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">G</span> GlobalPing</a><div class="nav-links"><a class="active" href="speed-test.html" data-i18n="navSpeed">Speed Test</a><a href="network-toolkit.html" data-i18n="navTools">Tools</a><a href="global-rankings.html" data-i18n="navRank">Rankings</a><a href="public-wifi-security.html" data-i18n="navSec">Security</a></div><a class="btn ghost" href="about-privacy.html">EN / 中文</a></nav></header>
+  <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">G</span> GlobalPing</a><div class="nav-links"><a class="active" href="speed-test.html" data-i18n="navSpeed">Speed Test</a><a href="network-toolkit.html" data-i18n="navTools">Tools</a><a href="global-rankings.html" data-i18n="navRank">Rankings</a><a href="public-wifi-security.html" data-i18n="navSec">Security</a></div><a class="btn ghost" href="about-privacy.html">EN</a></nav></header>
   <main class="section">
     <div class="container">
-      <span class="eyebrow"><span class="dot"></span> Browser based test</span>
-      <h1>Network Speed Intelligence</h1>
-      <p class="lead">Run a lightweight speed estimate, measure HTTP latency and keep your last five results in LocalStorage only.</p>
+      <span class="eyebrow" data-i18n="pageSpeedEyebrow"><span class="dot"></span> Browser based test</span>
+      <h1 data-i18n="pageSpeedTitle">Network Speed Intelligence</h1>
+      <p class="lead" data-i18n="pageSpeedLead">Run a lightweight speed estimate, measure HTTP latency and keep your last five results in LocalStorage only.</p>
       <div class="hero-grid" style="align-items:start">
         <article class="card gauge-card">
-          <div class="status-chip"><span class="dot"></span><span data-test-status>Select a server and start</span></div>
+          <div class="status-chip"><span class="dot"></span><span data-test-status data-i18n="statusReady">Select a server and start</span></div>
           <div class="gauge"><svg viewBox="0 0 100 100"><circle class="track" cx="50" cy="50" r="45"></circle><circle class="progress" cx="50" cy="50" r="45"></circle></svg><div class="gauge-center"><div><div class="speed-value" data-speed-value>0</div><div class="speed-unit">Mbps download</div></div></div></div>
-          <div class="input-row"><select aria-label="Server"><option>Singapore Edge</option><option>New York Edge</option><option>Frankfurt Edge</option><option>Tokyo Edge</option></select><button class="btn primary" data-start-test data-done-label="Run Again">GO</button></div>
+          <div class="input-row"><select aria-label="Server" data-i18n="serverLabel" data-i18n-attr="aria-label"><option>Singapore Edge</option><option>New York Edge</option><option>Frankfurt Edge</option><option>Tokyo Edge</option></select><button class="btn primary" data-start-test data-done-label="Run Again" data-i18n="btnGo">GO</button></div>
         </article>
         <div class="grid">
           <div class="grid grid-2">
-            <div class="metric card"><span class="fine">Download</span><b><span data-metric="download">0</span> Mbps</b></div>
-            <div class="metric card"><span class="fine">Upload</span><b><span data-metric="upload">0</span> Mbps</b></div>
-            <div class="metric card"><span class="fine">Ping</span><b><span data-metric="ping">0</span> ms</b></div>
-            <div class="metric card"><span class="fine">Jitter</span><b><span data-metric="jitter">0</span> ms</b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricDown">Download</span><b><span data-metric="download">0</span> Mbps</b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricUp">Upload</span><b><span data-metric="upload">0</span> Mbps</b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricPing">Ping</span><b><span data-metric="ping">0</span> ms</b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricJitter">Jitter</span><b><span data-metric="jitter">0</span> ms</b></div>
           </div>
-          <div class="ad-slot">AdSense result rectangle placeholder</div>
-          <div class="tabs"><button class="btn" data-copy-result>Copy Result</button><a class="btn" href="https://twitter.com/intent/tweet?text=I%20tested%20my%20network%20with%20GlobalPing" target="_blank" rel="noreferrer">Share</a></div>
+          <div class="ad-slot" data-i18n="adPlaceholder">AdSense result rectangle placeholder</div>
+          <div class="tabs"><button class="btn" data-copy-result data-i18n="btnCopy">Copy Result</button><a class="btn" href="https://twitter.com/intent/tweet?text=I%20tested%20my%20network%20with%20GlobalPing" target="_blank" rel="noreferrer" data-i18n="btnShare">Share</a></div>
         </div>
       </div>
       <section class="section">
-        <h2>Recent local tests</h2>
-        <div class="card table-wrap"><table><thead><tr><th>Time</th><th>Download</th><th>Upload</th><th>Ping</th><th>Jitter</th></tr></thead><tbody data-history></tbody></table></div>
+        <h2 data-i18n="historyTitle">Recent local tests</h2>
+        <div class="card table-wrap"><table><thead><tr><th data-i18n="tableTime">Time</th><th data-i18n="tableDown">Download</th><th data-i18n="tableUp">Upload</th><th data-i18n="tablePing">Ping</th><th data-i18n="tableJitter">Jitter</th></tr></thead><tbody data-history></tbody></table></div>
       </section>
     </div>
   </main>

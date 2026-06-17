@@ -4,38 +4,218 @@ const fmt = (n, digits = 0) => Number(n).toFixed(digits);
 const flag = (code) => code.replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt()));
 const rootPrefix = location.pathname.includes("/pages/") ? ".." : ".";
 
-// ================= 多语言本地化字典 =================
+// ================= 多语言本地化字典（已扩展至7国语言） =================
 const langData = {
   en: {
     navSpeed: "Speed Test", navTools: "Tools", navRank: "Rankings", navSec: "Security",
     heroTitle: "Test your internet speed anywhere in the world.",
     heroLead: "GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics.",
     btnStart: "Start Speed Test", btnOpen: "Open Toolkit",
-    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter"
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    historyTitle: "Recent local tests", tableTime: "Time", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
+    heroEyebrow: "Live network intelligence",
+    snapshotTitle: "Global speed snapshot",
+    snapshotDesc: "Top fixed broadband regions from the latest local dataset.",
+    btnViewAll: "View All Rankings",
+    toolsTitle: "Network tools and guides",
+    footerTools: "Tools",
+    footerInsights: "Insights",
+    footerTrust: "Trust",
+    pageSpeedEyebrow: "Browser based test",
+    pageSpeedTitle: "Network Speed Intelligence",
+    pageSpeedLead: "Run a lightweight speed estimate, measure HTTP latency and keep your last five results in LocalStorage only.",
+    statusReady: "Ready",
+    statusStart: "Select a server and start",
+    serverLabel: "Server",
+    btnGo: "GO",
+    btnCopy: "Copy Result",
+    btnShare: "Share",
+    adPlaceholder: "AdSense result rectangle placeholder",
+  },
+  es: {
+    navSpeed: "Prueba de Velocidad", navTools: "Herramientas", navRank: "Clasificaciones", navSec: "Seguridad",
+    heroTitle: "Prueba tu velocidad de internet en cualquier parte del mundo.",
+    heroLead: "GlobalPing combina una prueba de velocidad del navegador, clasificaciones mundiales, guías de DNS, reseñas de VPN y diagnósticos diarios.",
+    btnStart: "Iniciar Prueba", btnOpen: "Abrir Herramientas",
+    metricDown: "Descarga", metricUp: "Subida", metricPing: "Ping", metricJitter: "Jitter",
+    historyTitle: "Pruebas locales recientes", tableTime: "Hora", tableDown: "Descarga", tableUp: "Subida", tablePing: "Ping", tableJitter: "Jitter",
+    heroEyebrow: "Inteligencia de red en vivo",
+    snapshotTitle: "Instantánea global de velocidad",
+    snapshotDesc: "Principales regiones de banda ancha fija del último conjunto de datos local.",
+    btnViewAll: "Ver Todos los Rankings",
+    toolsTitle: "Herramientas y guías de red",
+    footerTools: "Herramientas",
+    footerInsights: "Análisis",
+    footerTrust: "Confianza",
+    pageSpeedEyebrow: "Prueba basada en navegador",
+    pageSpeedTitle: "Inteligencia de Velocidad de Red",
+    pageSpeedLead: "Ejecuta una estimación ligera de velocidad, mide la latencia HTTP y guarda tus últimos cinco resultados solo en LocalStorage.",
+    statusReady: "Listo",
+    statusStart: "Selecciona un servidor e inicia",
+    serverLabel: "Servidor",
+    btnGo: "IR",
+    btnCopy: "Copiar Resultado",
+    btnShare: "Compartir",
+    adPlaceholder: "Marcador de rectángulo AdSense",
+  },
+  pt: {
+    navSpeed: "Teste de Velocidade", navTools: "Ferramentas", navRank: "Classificações", navSec: "Segurança",
+    heroTitle: "Teste a sua velocidade de internet em qualquer lugar do mundo.",
+    heroLead: "GlobalPing combina um teste de velocidade no navegador, classificações globais de países, guias de DNS, avaliações de VPN e diagnósticos diários.",
+    btnStart: "Iniciar Teste", btnOpen: "Abrir Ferramentas",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    historyTitle: "Testes locais recentes", tableTime: "Hora", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
+    heroEyebrow: "Inteligência de rede ao vivo",
+    snapshotTitle: "Instantâneo global de velocidade",
+    snapshotDesc: "Principais regiões de banda larga fixa do conjunto de dados local mais recente.",
+    btnViewAll: "Ver Todas as Classificações",
+    toolsTitle: "Ferramentas e guias de rede",
+    footerTools: "Ferramentas",
+    footerInsights: "Insights",
+    footerTrust: "Confiança",
+    pageSpeedEyebrow: "Teste baseado no navegador",
+    pageSpeedTitle: "Inteligência de Velocidade de Rede",
+    pageSpeedLead: "Execute uma estimativa leve de velocidade, meça a latência HTTP e mantenha seus últimos cinco resultados apenas no LocalStorage.",
+    statusReady: "Pronto",
+    statusStart: "Selecione um servidor e inicie",
+    serverLabel: "Servidor",
+    btnGo: "IR",
+    btnCopy: "Copiar Resultado",
+    btnShare: "Compartilhar",
+    adPlaceholder: "Marcador de retângulo do AdSense",
+  },
+  fr: {
+    navSpeed: "Test de Débit", navTools: "Outils", navRank: "Classements", navSec: "Sécurité",
+    heroTitle: "Testez votre vitesse Internet partout dans le monde.",
+    heroLead: "GlobalPing combine un test de vitesse par navigateur, des classements mondiaux, des guides de configuration DNS, des avis VPN et des diagnostics quotidiens.",
+    btnStart: "Lancer le Test", btnOpen: "Ouvrir la Boîte",
+    metricDown: "Téléchargement", metricUp: "Téléversement", metricPing: "Ping", metricJitter: "Jitter",
+    historyTitle: "Tests locaux récents", tableTime: "Heure", tableDown: "Téléchargement", tableUp: "Téléversement", tablePing: "Ping", tableJitter: "Jitter",
+    heroEyebrow: "Intelligence réseau en direct",
+    snapshotTitle: "Aperçu mondial de la vitesse",
+    snapshotDesc: "Principales régions à large bande fixe de la dernière base de données locale.",
+    btnViewAll: "Voir Tous les Classements",
+    toolsTitle: "Outils et guides réseau",
+    footerTools: "Outils",
+    footerInsights: "Analyses",
+    footerTrust: "Confiance",
+    pageSpeedEyebrow: "Test basé sur le navigateur",
+    pageSpeedTitle: "Intelligence de Vitesse Réseau",
+    pageSpeedLead: "Lancez une estimation légère de vitesse, mesurez la latence HTTP et conservez vos cinq derniers résultats uniquement dans le LocalStorage.",
+    statusReady: "Prêt",
+    statusStart: "Sélectionnez un serveur et démarrez",
+    serverLabel: "Serveur",
+    btnGo: "GO",
+    btnCopy: "Copier le Résultat",
+    btnShare: "Partager",
+    adPlaceholder: "Espace publicitaire AdSense",
+  },
+  de: {
+    navSpeed: "Speedtest", navTools: "Tools", navRank: "Rankings", navSec: "Sicherheit",
+    heroTitle: "Testen Sie Ihre Internetgeschwindigkeit überall auf der Welt.",
+    heroLead: "GlobalPing kombiniert einen Browser-Speedtest, globale Länder-Rankings, DNS-Anleitungen, VPN-Bewertungen und alltägliche Diagnosen.",
+    btnStart: "Test Starten", btnOpen: "Tools Öffnen",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    historyTitle: "Jüngste lokale Tests", tableTime: "Zeit", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
+    heroEyebrow: "Live-Netzwerk-Intelligenz",
+    snapshotTitle: "Globaler Geschwindigkeits-Überblick",
+    snapshotDesc: "Top-Regionen mit Festnetz-Breitband aus dem aktuellen lokalen Datensatz.",
+    btnViewAll: "Alle Rankings Anzeigen",
+    toolsTitle: "Netzwerk-Tools und Anleitungen",
+    footerTools: "Tools",
+    footerInsights: "Einblicke",
+    footerTrust: "Vertrauen",
+    pageSpeedEyebrow: "Browser-basierter Test",
+    pageSpeedTitle: "Netzwerkgeschwindigkeits-Intelligenz",
+    pageSpeedLead: "Führen Sie eine leichte Geschwindigkeitsschätzung durch, messen Sie die HTTP-Latenz und speichern Sie Ihre letzten fünf Ergebnisse nur im LocalStorage.",
+    statusReady: "Bereit",
+    statusStart: "Wählen Sie einen Server und starten",
+    serverLabel: "Server",
+    btnGo: "GO",
+    btnCopy: "Ergebnis Kopieren",
+    btnShare: "Teilen",
+    adPlaceholder: "AdSense Rechteck-Platzhalter",
+  },
+  ja: {
+    navSpeed: "速度テスト", navTools: "ツール", navRank: "世界ランキング", navSec: "セキュリティ",
+    heroTitle: "世界中どこでもインターネット速度をテスト。",
+    heroLead: "GlobalPingは、ブラウザ速度テスト、世界国別ランキング、DNS設定ガイド、VPNレビュー、日常的なネットワーク診断を統合しています。",
+    btnStart: "テスト開始", btnOpen: "ツールを開く",
+    metricDown: "ダウンロード", metricUp: "アップロード", metricPing: "レイテンシ", metricJitter: "ジッター",
+    historyTitle: "最近のローカルテスト", tableTime: "時間", tableDown: "ダウンロード", tableUp: "アップロード", tablePing: "レイテンシ", tableJitter: "ジッター",
+    heroEyebrow: "ライブネットワーク情報",
+    snapshotTitle: "世界の速度スナップショット",
+    snapshotDesc: "最新のローカルデータセットから固定ブロードバンド上位地域を表示。",
+    btnViewAll: "すべてのランキングを見る",
+    toolsTitle: "ネットワークツールとガイド",
+    footerTools: "ツール",
+    footerInsights: "洞察",
+    footerTrust: "信頼",
+    pageSpeedEyebrow: "ブラウザベースのテスト",
+    pageSpeedTitle: "ネットワーク速度インテリジェンス",
+    pageSpeedLead: "軽量な速度推定を実行し、HTTPレイテンシを測定して、最新5件の結果をLocalStorageのみに保存します。",
+    statusReady: "準備完了",
+    statusStart: "サーバーを選択して開始",
+    serverLabel: "サーバー",
+    btnGo: "GO",
+    btnCopy: "結果をコピー",
+    btnShare: "共有",
+    adPlaceholder: "AdSense 広告枠",
   },
   zh: {
     navSpeed: "网速测试", navTools: "网络工具", navRank: "全球排名", navSec: "安全指南",
     heroTitle: "测试您在全球任何地方的互联网网速。",
     heroLead: "GlobalPing 聚合了浏览器轻量测速、全球国家网速排行、DNS设置指南、VPN/代理评测及日常网络故障排查工具。",
     btnStart: "开始网速测试", btnOpen: "打开工具箱",
-    metricDown: "下载速度", metricUp: "上传速度", metricPing: "网络延迟", metricJitter: "抖动"
+    metricDown: "下载速度", metricUp: "上传速度", metricPing: "网络延迟", metricJitter: "抖动",
+    historyTitle: "最近的本地测试", tableTime: "时间", tableDown: "下载速度", tableUp: "上传速度", tablePing: "网络延迟", tableJitter: "抖动",
+    heroEyebrow: "实时网络情报",
+    snapshotTitle: "全球速度概览",
+    snapshotDesc: "来自最新本地数据集的固定宽带领先地区。",
+    btnViewAll: "查看全部排名",
+    toolsTitle: "网络工具与指南",
+    footerTools: "工具",
+    footerInsights: "洞察",
+    footerTrust: "信任",
+    pageSpeedEyebrow: "基于浏览器的测试",
+    pageSpeedTitle: "网络速度智能",
+    pageSpeedLead: "运行轻量级速度估算，测量 HTTP 延迟，并将最近五次结果仅保存在 LocalStorage 中。",
+    statusReady: "就绪",
+    statusStart: "选择服务器并开始",
+    serverLabel: "服务器",
+    btnGo: "开始",
+    btnCopy: "复制结果",
+    btnShare: "分享",
+    adPlaceholder: "AdSense 广告位占位符",
   }
 };
 
+// 支持的语言列表
+const supportedLangs = ["en", "zh", "es", "pt", "fr", "de", "ja"];
+const langNames = { en: "EN", zh: "中文", es: "ES", pt: "PT", fr: "FR", de: "DE", ja: "JA" };
+
 function initLanguage() {
-  let currentLang = localStorage.getItem("globalping-lang") || "en";
+  let currentLang = localStorage.getItem("globalping-lang");
+  if (!currentLang) {
+    const navLang = navigator.language.split("-")[0];
+    currentLang = supportedLangs.includes(navLang) ? navLang : "en";
+  }
 
   const applyLanguage = (lang) => {
     $$("[data-i18n]").forEach(el => {
       const key = el.dataset.i18n;
+      const attr = el.dataset.i18nAttr;
       if (langData[lang] && langData[lang][key]) {
-        if (el.tagName === "INPUT" || el.tagName === "SELECT") {
+        if (attr) {
+          el.setAttribute(attr, langData[lang][key]);
+        } else if (el.tagName === "INPUT" || el.tagName === "SELECT") {
           el.placeholder = langData[lang][key];
         } else {
           el.textContent = langData[lang][key];
         }
       }
     });
+    document.documentElement.lang = lang;
     localStorage.setItem("globalping-lang", lang);
   };
 
@@ -43,28 +223,16 @@ function initLanguage() {
   if (langBtn) {
     langBtn.addEventListener("click", (e) => {
       e.preventDefault();
-      currentLang = currentLang === "en" ? "zh" : "en";
+      let currentIndex = supportedLangs.indexOf(currentLang);
+      let nextIndex = (currentIndex + 1) % supportedLangs.length;
+      currentLang = supportedLangs[nextIndex];
+
       applyLanguage(currentLang);
-      langBtn.textContent = currentLang === "en" ? "EN / 中文" : "中文 / EN";
+      langBtn.textContent = langNames[currentLang];
     });
-    langBtn.textContent = currentLang === "en" ? "EN / 中文" : "中文 / EN";
+    langBtn.textContent = langNames[currentLang];
   }
   applyLanguage(currentLang);
-}
-
-// ================= Google Analytics 脚本注入 =================
-function initAnalytics() {
-  if (!window.gtag) {
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-DDHNR5DW95";
-    document.head.appendChild(script);
-
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DDHNR5DW95');
-  }
 }
 
 async function loadJSON(path) {
@@ -294,7 +462,6 @@ function initTroubleshooter() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  initAnalytics();
   initLanguage();
   setGauge(0);
   renderHistory();
