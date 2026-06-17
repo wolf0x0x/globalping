@@ -1,0 +1,6 @@
+[
+  {"provider":"Cloudflare","primary":"1.1.1.1","secondary":"1.0.0.1","doh":"https://cloudflare-dns.com/dns-query","dot":"1dot1dot1dot1.cloudflare-dns.com","privacy":"High"},
+  {"provider":"Google","primary":"8.8.8.8","secondary":"8.8.4.4","doh":"https://dns.google/dns-query","dot":"dns.google","privacy":"Medium"},
+  {"provider":"Quad9","primary":"9.9.9.9","secondary":"149.112.112.112","doh":"https://dns.quad9.net/dns-query","dot":"dns.quad9.net","privacy":"High"},
+  {"provider":"OpenDNS","primary":"208.67.222.222","secondary":"208.67.220.220","doh":"https://doh.opendns.com/dns-query","dot":"dns.opendns.com","privacy":"Medium"}
+]

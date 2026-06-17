@@ -1,0 +1,6 @@
+[
+  {"name":"NordVPN","score":4.8,"speed":85,"security":95,"price":"$3.29/mo","bestFor":"Streaming and privacy","country":"Global","type":"paid"},
+  {"name":"ExpressVPN","score":4.7,"speed":89,"security":93,"price":"$6.67/mo","bestFor":"Travel and China routes","country":"Global","type":"paid"},
+  {"name":"Surfshark","score":4.6,"speed":82,"security":91,"price":"$2.19/mo","bestFor":"Unlimited devices","country":"Global","type":"paid"},
+  {"name":"Proton VPN","score":4.5,"speed":76,"security":96,"price":"Free / $4.99","bestFor":"Open-source security","country":"Europe","type":"free"}
+]

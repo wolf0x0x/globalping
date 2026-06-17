@@ -1,0 +1,6 @@
+[
+  {"ip":"45.77.128.32","location":"Frankfurt, DE","type":"SOCKS5","speed":"Fast","latency":42,"status":"online"},
+  {"ip":"172.104.83.19","location":"New York, US","type":"HTTP","speed":"Medium","latency":86,"status":"online"},
+  {"ip":"139.180.220.91","location":"Singapore, SG","type":"SOCKS5","speed":"Fast","latency":18,"status":"online"},
+  {"ip":"51.68.199.44","location":"London, GB","type":"HTTPS","speed":"Medium","latency":64,"status":"checking"}
+]

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Internet Speed Rankings | GlobalPing</title>
+  <meta name="description" content="Search and filter global fixed broadband and mobile internet speed rankings by region.">
+  <link rel="stylesheet" href="../assets/css/styles.css"><script defer src="../assets/js/app.js"></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">G</span> GlobalPing</a><div class="nav-links"><a href="speed-test.html">Speed Test</a><a href="network-toolkit.html">Tools</a><a class="active" href="global-rankings.html">Rankings</a><a href="public-wifi-security.html">Security</a></div><a class="btn ghost" href="about-privacy.html">EN / 中文</a></nav></header>
+  <main class="section">
+    <div class="container">
+      <h1>Global Internet Speed Rankings</h1>
+      <p class="lead">Compare average connection performance across leading territories with searchable fixed and mobile datasets.</p>
+      <div class="grid grid-2">
+        <section class="card panel map">
+          <span class="map-point" style="left:74%;top:48%"></span><span class="map-point" style="left:21%;top:42%"></span><span class="map-point" style="left:48%;top:37%"></span><span class="map-point" style="left:61%;top:57%"></span>
+          <h2>World speed heat view</h2><p class="muted">Darker nodes indicate higher median download speeds in the current sample dataset.</p>
+        </section>
+        <section class="card panel">
+          <h2>Filters</h2>
+          <div class="tabs"><button class="tab active" data-rank-mode="fixed">Fixed Broadband</button><button class="tab" data-rank-mode="mobile">Mobile Network</button></div>
+          <div class="filters" style="margin-top:16px"><button class="filter active" data-region="All">All Regions</button><button class="filter" data-region="Asia">Asia</button><button class="filter" data-region="Europe">Europe</button><button class="filter" data-region="Americas">Americas</button><button class="filter" data-region="Middle East">Middle East</button></div>
+          <input class="input" data-ranking-search placeholder="Search countries..." style="margin-top:16px">
+          <p class="fine" style="margin-top:16px">Data source target: Speedtest Global Index / Ookla public reports. Local sample updated 2026-06-17.</p>
+        </section>
+      </div>
+      <section class="section"><div class="card table-wrap"><table><thead><tr><th>Rank</th><th>Country</th><th>Download</th><th>Upload</th><th>Latency</th><th>Trend</th></tr></thead><tbody data-rankings></tbody></table></div></section>
+    </div>
+  </main>
+</body>
+</html>

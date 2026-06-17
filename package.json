@@ -1,0 +1,11 @@
+{
+  "name": "globalping-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GlobalPing network speed test and tools website for globalping.xyz",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {}
+}

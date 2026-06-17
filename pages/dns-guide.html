@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DNS Setup Guide | GlobalPing</title><meta name="description" content="Recommended public DNS resolvers and setup steps for Windows, macOS, iOS, Android and routers."><link rel="stylesheet" href="../assets/css/styles.css"><script defer src="../assets/js/app.js"></script></head>
+<body>
+  <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">G</span> GlobalPing</a><div class="nav-links"><a href="speed-test.html">Speed Test</a><a href="network-toolkit.html">Tools</a><a href="global-rankings.html">Rankings</a><a href="public-wifi-security.html">Security</a></div><a class="btn ghost" href="about-privacy.html">EN / 中文</a></nav></header>
+  <main class="section"><div class="container">
+    <h1>DNS Setup Guide</h1><p class="lead">Faster, safer and more private name resolution with public DNS, DoH and DoT configuration references.</p>
+    <section class="card table-wrap"><table><thead><tr><th>Provider</th><th>Primary</th><th>Secondary</th><th>DoH Endpoint</th></tr></thead><tbody data-dns-list></tbody></table></section>
+    <section class="section card panel" data-tabs><h2>Platform configuration</h2><div class="tabs"><button class="tab active" data-tab-target="windows">Windows</button><button class="tab" data-tab-target="macos">macOS</button><button class="tab" data-tab-target="ios">iOS</button><button class="tab" data-tab-target="android">Android</button><button class="tab" data-tab-target="router">Router</button></div><div style="margin-top:18px"><ol data-tab-panel="windows"><li>Open Network & Internet settings.</li><li>Select adapter properties.</li><li>Set IPv4 DNS manually and save.</li></ol><ol data-tab-panel="macos" hidden><li>Open System Settings, Network.</li><li>Select current connection, Details.</li><li>Add DNS servers and apply.</li></ol><ol data-tab-panel="ios" hidden><li>Open WiFi network details.</li><li>Tap Configure DNS.</li><li>Choose Manual and add resolver IPs.</li></ol><ol data-tab-panel="android" hidden><li>Open Network settings.</li><li>Use Private DNS for DoT hostname.</li><li>Save and reconnect.</li></ol><ol data-tab-panel="router" hidden><li>Open router admin console.</li><li>Find WAN or DHCP DNS fields.</li><li>Set resolver IPs and reboot clients.</li></ol></div></section>
+  </div></main>
+</body>
+</html>

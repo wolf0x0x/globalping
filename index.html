@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalPing | Global Speed Test and Network Tools</title>
+  <meta name="description" content="Free global internet speed test, country rankings, DNS guide, VPN reviews, public WiFi security and network troubleshooting tools.">
+  <link rel="canonical" href="https://globalping.xyz/">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="brand-mark">G</span> GlobalPing</a>
+      <div class="nav-links">
+        <a class="active" href="pages/speed-test.html">Speed Test</a>
+        <a href="pages/network-toolkit.html">Tools</a>
+        <a href="pages/global-rankings.html">Rankings</a>
+        <a href="pages/public-wifi-security.html">Security</a>
+      </div>
+      <div class="nav-actions"><a class="btn ghost" href="pages/about-privacy.html">EN / 中文</a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow"><span class="dot"></span> Live network intelligence</span>
+          <h1>Test your internet speed anywhere in the world.</h1>
+          <p class="lead">GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics in one static, privacy-conscious toolkit.</p>
+          <div class="tabs">
+            <a class="btn primary" href="pages/speed-test.html">Start Speed Test</a>
+            <a class="btn" href="pages/network-toolkit.html">Open Toolkit</a>
+          </div>
+        </div>
+        <article class="card gauge-card">
+          <div class="status-chip"><span class="dot"></span><span data-test-status>Ready</span></div>
+          <div class="gauge">
+            <svg viewBox="0 0 100 100" aria-hidden="true">
+              <circle class="track" cx="50" cy="50" r="45"></circle>
+              <circle class="progress" cx="50" cy="50" r="45"></circle>
+            </svg>
+            <div class="gauge-center"><div><div class="speed-value" data-speed-value>0</div><div class="speed-unit">Mbps</div></div></div>
+          </div>
+          <button class="btn primary" data-start-test>GO</button>
+          <div class="grid grid-2" style="margin-top:18px">
+            <div class="metric card"><span class="fine">Download</span><b><span data-metric="download">0</span></b></div>
+            <div class="metric card"><span class="fine">Upload</span><b><span data-metric="upload">0</span></b></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="tabs" style="justify-content:space-between;margin-bottom:18px">
+          <div><h2>Global speed snapshot</h2><p class="muted">Top fixed broadband regions from the latest local dataset.</p></div>
+          <a class="btn" href="pages/global-rankings.html">View All Rankings</a>
+        </div>
+        <div class="grid grid-4" data-top-countries></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Network tools and guides</h2>
+        <div class="grid grid-3">
+          <a class="card tool-card" href="pages/vpn-reviews.html"><div class="icon">盾</div><h3>Proxy & VPN Reviews</h3><p class="muted">Compare speed, privacy, price and use cases across leading providers.</p></a>
+          <a class="card tool-card" href="pages/public-wifi-security.html"><div class="icon">锁</div><h3>Public WiFi Safety</h3><p class="muted">A practical checklist for airports, hotels, cafes and shared networks.</p></a>
+          <a class="card tool-card" href="pages/dns-guide.html"><div class="icon">DNS</div><h3>DNS Setup Guide</h3><p class="muted">Cloudflare, Google, Quad9 and encrypted DNS configuration steps.</p></a>
+          <a class="card tool-card" href="pages/network-troubleshooting.html"><div class="icon">诊</div><h3>Troubleshooting</h3><p class="muted">Step-by-step diagnostics for slow browsing, high ping and WiFi drops.</p></a>
+          <a class="card tool-card" href="pages/network-toolkit.html"><div class="icon">IP</div><h3>IP Lookup</h3><p class="muted">Check public IP, geolocation, ISP and HTTP latency from your browser.</p></a>
+          <a class="card tool-card" href="pages/country-detail.html"><div class="icon">图</div><h3>Country Deep Dive</h3><p class="muted">Explore sample ISP comparisons and 12-month network trends.</p></a>
+        </div>
+      </div>
+    </section>
+    <section class="container section"><div class="ad-slot">AdSense responsive banner placeholder</div></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html"><span class="brand-mark">G</span> GlobalPing</a><p class="muted">Free, global and privacy-aware network performance tools for everyone.</p></div>
+      <div><strong>Tools</strong><a href="pages/speed-test.html">Speed Test</a><a href="pages/network-toolkit.html">Network Toolkit</a><a href="pages/dns-guide.html">DNS Guide</a></div>
+      <div><strong>Insights</strong><a href="pages/global-rankings.html">Global Rankings</a><a href="pages/vpn-reviews.html">VPN Reviews</a><a href="pages/country-detail.html">Country Detail</a></div>
+      <div><strong>Trust</strong><a href="pages/public-wifi-security.html">WiFi Safety</a><a href="pages/network-troubleshooting.html">Troubleshooting</a><a href="pages/about-privacy.html">Privacy & Disclosure</a></div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "updated": "2026-06-17",
+  "fixed": [
+    {"rank":1,"country":"Singapore","flag":"SG","region":"Asia","download":410,"upload":215,"latency":4,"trend":"up"},
+    {"rank":2,"country":"United Arab Emirates","flag":"AE","region":"Middle East","download":382,"upload":184,"latency":7,"trend":"up"},
+    {"rank":3,"country":"Hong Kong","flag":"HK","region":"Asia","download":368,"upload":201,"latency":5,"trend":"flat"},
+    {"rank":4,"country":"Chile","flag":"CL","region":"Americas","download":337,"upload":142,"latency":11,"trend":"up"},
+    {"rank":5,"country":"France","flag":"FR","region":"Europe","download":318,"upload":155,"latency":9,"trend":"down"},
+    {"rank":6,"country":"United States","flag":"US","region":"Americas","download":287,"upload":92,"latency":16,"trend":"up"},
+    {"rank":7,"country":"Japan","flag":"JP","region":"Asia","download":271,"upload":126,"latency":8,"trend":"flat"},
+    {"rank":8,"country":"Spain","flag":"ES","region":"Europe","download":254,"upload":117,"latency":10,"trend":"up"}
+  ],
+  "mobile": [
+    {"rank":1,"country":"United Arab Emirates","flag":"AE","region":"Middle East","download":391,"upload":54,"latency":12,"trend":"up"},
+    {"rank":2,"country":"Qatar","flag":"QA","region":"Middle East","download":352,"upload":48,"latency":14,"trend":"flat"},
+    {"rank":3,"country":"South Korea","flag":"KR","region":"Asia","download":297,"upload":39,"latency":18,"trend":"up"},
+    {"rank":4,"country":"Singapore","flag":"SG","region":"Asia","download":262,"upload":42,"latency":17,"trend":"up"},
+    {"rank":5,"country":"Denmark","flag":"DK","region":"Europe","download":231,"upload":31,"latency":20,"trend":"down"},
+    {"rank":6,"country":"China","flag":"CN","region":"Asia","download":218,"upload":35,"latency":24,"trend":"up"},
+    {"rank":7,"country":"United States","flag":"US","region":"Americas","download":196,"upload":22,"latency":31,"trend":"flat"},
+    {"rank":8,"country":"Brazil","flag":"BR","region":"Americas","download":151,"upload":19,"latency":38,"trend":"up"}
+  ]
+}
