@@ -1,0 +1,40 @@
+name: Sync public network data
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-public-network-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Sync data
+        run: npm run sync:data
+
+      - name: Build
+        run: npm run build
+
+      - name: Validate release
+        run: npm run check && npm run check:release && npm run check:data
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "[auto] sync public network data"
+          file_pattern: "data/*.json dist/data/*.json dist/index.html dist/pages/*.html dist/assets/js/app.js"

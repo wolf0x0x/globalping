@@ -1,0 +1,31 @@
+{
+  "updated": "2026-06-17",
+  "provider": "Cloudflare Speed Test",
+  "downloadEndpoint": "https://speed.cloudflare.com/__down",
+  "uploadEndpoint": "https://speed.cloudflare.com/__up",
+  "traceEndpoint": "https://www.cloudflare.com/cdn-cgi/trace",
+  "nodes": [
+    {
+      "id": "auto",
+      "label": "Auto nearest Cloudflare edge",
+      "region": "Global",
+      "downloadBytes": 25000000,
+      "uploadBytes": 4000000
+    },
+    {
+      "id": "small",
+      "label": "Quick test",
+      "region": "Global",
+      "downloadBytes": 5000000,
+      "uploadBytes": 1000000
+    },
+    {
+      "id": "large",
+      "label": "High bandwidth test",
+      "region": "Global",
+      "downloadBytes": 50000000,
+      "uploadBytes": 8000000
+    }
+  ],
+  "sourceStatus": "online"
+}

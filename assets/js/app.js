@@ -23,14 +23,47 @@ const langData = {
     footerTrust: "Trust",
     pageSpeedEyebrow: "Browser based test",
     pageSpeedTitle: "Network Speed Intelligence",
-    pageSpeedLead: "Run a lightweight speed estimate, measure HTTP latency and keep your last five results in LocalStorage only.",
+    pageSpeedLead: "Run a Cloudflare edge download/upload test, measure HTTP latency and keep your last five results in LocalStorage only.",
     statusReady: "Ready",
     statusStart: "Select a server and start",
     serverLabel: "Server",
     btnGo: "GO",
     btnCopy: "Copy Result",
     btnShare: "Share",
-    adPlaceholder: "AdSense result rectangle placeholder",
+    adPlaceholder: "Sponsored network tools placement",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "No local tests yet.",
+    labelTesting: "Testing...",
+    statusMeasuring: "Measuring latency and throughput",
+    statusCompleted: "Test completed",
+    btnAgain: "Run Again",
+    copyDone: "Copied",
+    copyResultText: "GlobalPing result: {down} Mbps down, {up} Mbps up",
+    topCountriesLabel: "Median fixed broadband download",
+    ipChecking: "Checking your network...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "Location",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "Proxy/VPN",
+    ipNoSignal: "No signal",
+    ipError: "IP lookup could not reach the free API. Try again from a live connection.",
+    pingTesting: "Testing...",
+    pingResult: "{value} ms average HTTP latency",
+    adviceSlow: "Run a wired speed test, pause cloud backups, then compare DNS response from the toolkit.",
+    adviceConnect: "Power-cycle modem and router, verify WAN light, then test another device before changing DNS.",
+    advicePing: "Choose the nearest game/server region, close streaming apps, and check WiFi channel congestion.",
+    adviceDrops: "Move to 5 GHz or 6 GHz, reduce distance to the router, and check for overlapping channels.",
+    statusError: "Speed test endpoint unavailable. Please try again.",
+    historyUnavailable: "Unavailable",
+    unitNA: "N/A",
+    rankSource: "Source: {source} · {status} · updated {updated}",
+    vpnSpeed: "Speed",
+    vpnSecurity: "Security",
+    vpnSourceLabel: "Source:",
+    ipUnknown: "Unknown",
+    ipPossibleVPN: "Possible VPN",
+    proxySource: "Source: {source} · {status} · {updated}",
   },
   es: {
     navSpeed: "Prueba de Velocidad", navTools: "Herramientas", navRank: "Clasificaciones", navSec: "Seguridad",
@@ -49,14 +82,47 @@ const langData = {
     footerTrust: "Confianza",
     pageSpeedEyebrow: "Prueba basada en navegador",
     pageSpeedTitle: "Inteligencia de Velocidad de Red",
-    pageSpeedLead: "Ejecuta una estimación ligera de velocidad, mide la latencia HTTP y guarda tus últimos cinco resultados solo en LocalStorage.",
+    pageSpeedLead: "Ejecuta una prueba de descarga/subida en Cloudflare edge, mide la latencia HTTP y guarda tus últimos cinco resultados solo en LocalStorage.",
     statusReady: "Listo",
     statusStart: "Selecciona un servidor e inicia",
     serverLabel: "Servidor",
     btnGo: "IR",
     btnCopy: "Copiar Resultado",
     btnShare: "Compartir",
-    adPlaceholder: "Marcador de rectángulo AdSense",
+    adPlaceholder: "Espacio patrocinado de herramientas de red",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "Aún no hay pruebas locales.",
+    labelTesting: "Probando...",
+    statusMeasuring: "Midiendo latencia y rendimiento",
+    statusCompleted: "Prueba completada",
+    btnAgain: "Ejecutar de Nuevo",
+    copyDone: "Copiado",
+    copyResultText: "Resultado GlobalPing: {down} Mbps de bajada, {up} Mbps de subida",
+    topCountriesLabel: "Descarga mediana de banda ancha fija",
+    ipChecking: "Comprobando tu red...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "Ubicación",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "Proxy/VPN",
+    ipNoSignal: "Sin señal",
+    ipError: "No se pudo contactar la API gratuita de geolocalización. Inténtalo desde una conexión activa.",
+    pingTesting: "Probando...",
+    pingResult: "{value} ms de latencia HTTP promedio",
+    adviceSlow: "Haz una prueba por cable, pausa las copias de seguridad en la nube y luego compara la respuesta DNS desde las herramientas.",
+    adviceConnect: "Reinicia el módem y el router, verifica la luz WAN y prueba otro dispositivo antes de cambiar el DNS.",
+    advicePing: "Elige la región de juego/servidor más cercana, cierra apps de streaming y verifica la congestión del canal WiFi.",
+    adviceDrops: "Cambia a 5 GHz o 6 GHz, reduce la distancia al router y verifica canales superpuestos.",
+    statusError: "El endpoint de la prueba de velocidad no está disponible. Inténtalo de nuevo.",
+    historyUnavailable: "No disponible",
+    unitNA: "N/D",
+    rankSource: "Fuente: {source} · {status} · actualizado {updated}",
+    vpnSpeed: "Velocidad",
+    vpnSecurity: "Seguridad",
+    vpnSourceLabel: "Fuente:",
+    ipUnknown: "Desconocido",
+    ipPossibleVPN: "Posible VPN",
+    proxySource: "Fuente: {source} · {status} · {updated}",
   },
   pt: {
     navSpeed: "Teste de Velocidade", navTools: "Ferramentas", navRank: "Classificações", navSec: "Segurança",
@@ -75,14 +141,47 @@ const langData = {
     footerTrust: "Confiança",
     pageSpeedEyebrow: "Teste baseado no navegador",
     pageSpeedTitle: "Inteligência de Velocidade de Rede",
-    pageSpeedLead: "Execute uma estimativa leve de velocidade, meça a latência HTTP e mantenha seus últimos cinco resultados apenas no LocalStorage.",
+    pageSpeedLead: "Execute um teste de download/upload no edge da Cloudflare, meça a latência HTTP e mantenha seus últimos cinco resultados apenas no LocalStorage.",
     statusReady: "Pronto",
     statusStart: "Selecione um servidor e inicie",
     serverLabel: "Servidor",
     btnGo: "IR",
     btnCopy: "Copiar Resultado",
     btnShare: "Compartilhar",
-    adPlaceholder: "Marcador de retângulo do AdSense",
+    adPlaceholder: "Espaço patrocinado de ferramentas de rede",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "Ainda não há testes locais.",
+    labelTesting: "Testando...",
+    statusMeasuring: "Medindo latência e throughput",
+    statusCompleted: "Teste concluído",
+    btnAgain: "Executar Novamente",
+    copyDone: "Copiado",
+    copyResultText: "Resultado GlobalPing: {down} Mbps de download, {up} Mbps de upload",
+    topCountriesLabel: "Download mediano de banda larga fixa",
+    ipChecking: "Verificando sua rede...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "Localização",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "Proxy/VPN",
+    ipNoSignal: "Sem sinal",
+    ipError: "Não foi possível alcançar a API gratuita de consulta de IP. Tente novamente com uma conexão ativa.",
+    pingTesting: "Testando...",
+    pingResult: "{value} ms de latência HTTP média",
+    adviceSlow: "Execute um teste com cabo, pause backups na nuvem e compare a resposta DNS nas ferramentas.",
+    adviceConnect: "Reinicie o modem e o roteador, verifique a luz WAN e teste outro dispositivo antes de alterar o DNS.",
+    advicePing: "Escolha a região de jogo/servidor mais próxima, feche apps de streaming e verifique a congestão do canal WiFi.",
+    adviceDrops: "Mude para 5 GHz ou 6 GHz, reduza a distância do roteador e verifique canais sobrepostos.",
+    statusError: "O endpoint do teste de velocidade está indisponível. Tente novamente.",
+    historyUnavailable: "Indisponível",
+    unitNA: "N/A",
+    rankSource: "Fonte: {source} · {status} · atualizado em {updated}",
+    vpnSpeed: "Velocidade",
+    vpnSecurity: "Segurança",
+    vpnSourceLabel: "Fonte:",
+    ipUnknown: "Desconhecido",
+    ipPossibleVPN: "Possível VPN",
+    proxySource: "Fonte: {source} · {status} · {updated}",
   },
   fr: {
     navSpeed: "Test de Débit", navTools: "Outils", navRank: "Classements", navSec: "Sécurité",
@@ -101,7 +200,7 @@ const langData = {
     footerTrust: "Confiance",
     pageSpeedEyebrow: "Test basé sur le navigateur",
     pageSpeedTitle: "Intelligence de Vitesse Réseau",
-    pageSpeedLead: "Lancez une estimation légère de vitesse, mesurez la latence HTTP et conservez vos cinq derniers résultats uniquement dans le LocalStorage.",
+    pageSpeedLead: "Lancez un test de téléchargement/envoi via Cloudflare edge, mesurez la latence HTTP et conservez vos cinq derniers résultats uniquement dans le LocalStorage.",
     statusReady: "Prêt",
     statusStart: "Sélectionnez un serveur et démarrez",
     serverLabel: "Serveur",
@@ -109,6 +208,39 @@ const langData = {
     btnCopy: "Copier le Résultat",
     btnShare: "Partager",
     adPlaceholder: "Espace publicitaire AdSense",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "Aucun test local pour l'instant.",
+    labelTesting: "Test en cours...",
+    statusMeasuring: "Mesure de la latence et du débit",
+    statusCompleted: "Test terminé",
+    btnAgain: "Relancer",
+    copyDone: "Copié",
+    copyResultText: "Résultat GlobalPing : {down} Mbps en téléchargement, {up} Mbps en envoi",
+    topCountriesLabel: "Téléchargement médian à large bande fixe",
+    ipChecking: "Vérification de votre réseau...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "Localisation",
+    ipLabelISP: "FAI",
+    ipLabelProxy: "Proxy/VPN",
+    ipNoSignal: "Aucun signe",
+    ipError: "La recherche IP n'a pas pu atteindre l'API gratuite. Réessayez depuis une connexion active.",
+    pingTesting: "Test en cours...",
+    pingResult: "{value} ms de latence HTTP moyenne",
+    adviceSlow: "Faites un test avec câble, mettez les sauvegardes cloud en pause, puis comparez la réponse DNS depuis les outils.",
+    adviceConnect: "Redémarrez le modem et le routeur, vérifiez le voyant WAN, puis testez un autre appareil avant de changer de DNS.",
+    advicePing: "Choisissez la région de jeu/serveur la plus proche, fermez les apps de streaming et vérifiez la congestion du canal WiFi.",
+    adviceDrops: "Passez au 5 GHz ou 6 GHz, rapprochez-vous du routeur et vérifiez les canaux qui se chevauchent.",
+    statusError: "Le point de terminaison du test de débit est indisponible. Veuillez réessayer.",
+    historyUnavailable: "Indisponible",
+    unitNA: "N/A",
+    rankSource: "Source : {source} · {status} · mis à jour {updated}",
+    vpnSpeed: "Vitesse",
+    vpnSecurity: "Sécurité",
+    vpnSourceLabel: "Source :",
+    ipUnknown: "Inconnu",
+    ipPossibleVPN: "VPN possible",
+    proxySource: "Source : {source} · {status} · {updated}",
   },
   de: {
     navSpeed: "Speedtest", navTools: "Tools", navRank: "Rankings", navSec: "Sicherheit",
@@ -127,14 +259,47 @@ const langData = {
     footerTrust: "Vertrauen",
     pageSpeedEyebrow: "Browser-basierter Test",
     pageSpeedTitle: "Netzwerkgeschwindigkeits-Intelligenz",
-    pageSpeedLead: "Führen Sie eine leichte Geschwindigkeitsschätzung durch, messen Sie die HTTP-Latenz und speichern Sie Ihre letzten fünf Ergebnisse nur im LocalStorage.",
+    pageSpeedLead: "Führen Sie einen Cloudflare-Edge Download-/Upload-Test durch, messen Sie die HTTP-Latenz und speichern Sie Ihre letzten fünf Ergebnisse nur im LocalStorage.",
     statusReady: "Bereit",
     statusStart: "Wählen Sie einen Server und starten",
     serverLabel: "Server",
     btnGo: "GO",
     btnCopy: "Ergebnis Kopieren",
     btnShare: "Teilen",
-    adPlaceholder: "AdSense Rechteck-Platzhalter",
+    adPlaceholder: "Gesponserte Netzwerk-Tool-Platzierung",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "Noch keine lokalen Tests vorhanden.",
+    labelTesting: "Test läuft...",
+    statusMeasuring: "Latenz und Durchsatz werden gemessen",
+    statusCompleted: "Test abgeschlossen",
+    btnAgain: "Erneut Ausführen",
+    copyDone: "Kopiert",
+    copyResultText: "GlobalPing Ergebnis: {down} Mbps Download, {up} Mbps Upload",
+    topCountriesLabel: "Medianer Festnetz-Download",
+    ipChecking: "Netzwerk wird überprüft...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "Standort",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "Proxy/VPN",
+    ipNoSignal: "Kein Signal",
+    ipError: "Die IP-Suche konnte die kostenlose API nicht erreichen. Versuchen Sie es über eine aktive Verbindung erneut.",
+    pingTesting: "Test läuft...",
+    pingResult: "{value} ms durchschnittliche HTTP-Latenz",
+    adviceSlow: "Führen Sie einen kabelgebundenen Test durch, pausieren Sie Cloud-Backups und vergleichen Sie dann die DNS-Antwort über die Tools.",
+    adviceConnect: "Starten Sie Modem und Router neu, prüfen Sie die WAN-Leuchte und testen Sie ein anderes Gerät, bevor Sie DNS ändern.",
+    advicePing: "Wählen Sie die nächste Spiel-/Serverregion, schließen Sie Streaming-Apps und prüfen Sie WiFi-Kanalüberlastungen.",
+    adviceDrops: "Wechseln Sie zu 5 GHz oder 6 GHz, verringern Sie die Entfernung zum Router und prüfen Sie überlappende Kanäle.",
+    statusError: "Speedtest-Endpunkt nicht verfügbar. Bitte erneut versuchen.",
+    historyUnavailable: "Nicht verfügbar",
+    unitNA: "k.A.",
+    rankSource: "Quelle: {source} · {status} · aktualisiert {updated}",
+    vpnSpeed: "Geschwindigkeit",
+    vpnSecurity: "Sicherheit",
+    vpnSourceLabel: "Quelle:",
+    ipUnknown: "Unbekannt",
+    ipPossibleVPN: "Mögliches VPN",
+    proxySource: "Quelle: {source} · {status} · {updated}",
   },
   ja: {
     navSpeed: "速度テスト", navTools: "ツール", navRank: "世界ランキング", navSec: "セキュリティ",
@@ -153,7 +318,7 @@ const langData = {
     footerTrust: "信頼",
     pageSpeedEyebrow: "ブラウザベースのテスト",
     pageSpeedTitle: "ネットワーク速度インテリジェンス",
-    pageSpeedLead: "軽量な速度推定を実行し、HTTPレイテンシを測定して、最新5件の結果をLocalStorageのみに保存します。",
+    pageSpeedLead: "Cloudflare edge のダウンロード/アップロードテストを実行し、HTTPレイテンシを測定して、最新5件の結果をLocalStorageのみに保存します。",
     statusReady: "準備完了",
     statusStart: "サーバーを選択して開始",
     serverLabel: "サーバー",
@@ -161,6 +326,39 @@ const langData = {
     btnCopy: "結果をコピー",
     btnShare: "共有",
     adPlaceholder: "AdSense 広告枠",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "まだローカルテストがありません。",
+    labelTesting: "テスト中...",
+    statusMeasuring: "レイテンシとスループットを測定中",
+    statusCompleted: "テスト完了",
+    btnAgain: "もう一度実行",
+    copyDone: "コピーしました",
+    copyResultText: "GlobalPing 結果: ダウンロード {down} Mbps / アップロード {up} Mbps",
+    topCountriesLabel: "固定ブロードバンドの中央値ダウンロード",
+    ipChecking: "ネットワークを確認中...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "場所",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "プロキシ/VPN",
+    ipNoSignal: "信号なし",
+    ipError: "IP 検索が無料 API に到達できませんでした。アクティブな接続から再試行してください。",
+    pingTesting: "テスト中...",
+    pingResult: "平均 HTTP レイテンシ {value} ms",
+    adviceSlow: "有線速度テストを実行し、クラウドバックアップを一時停止してから、ツールキットから DNS 応答を比較してください。",
+    adviceConnect: "モデムとルーターを再起動し、WAN ランプを確認してから、DNS を変更する前に別のデバイスをテストしてください。",
+    advicePing: "最寄りのゲーム/サーバーリージョンを選択し、ストリーミングアプリを閉じて、WiFi チャネルの混雑を確認してください。",
+    adviceDrops: "5 GHz または 6 GHz に移動し、ルーターまでの距離を縮めて、重複するチャネルを確認してください。",
+    statusError: "速度テストエンドポイントが利用できません。もう一度お試しください。",
+    historyUnavailable: "利用不可",
+    unitNA: "該当なし",
+    rankSource: "ソース: {source} · {status} · 更新 {updated}",
+    vpnSpeed: "速度",
+    vpnSecurity: "セキュリティ",
+    vpnSourceLabel: "ソース:",
+    ipUnknown: "不明",
+    ipPossibleVPN: "可能性のある VPN",
+    proxySource: "ソース: {source} · {status} · {updated}",
   },
   zh: {
     navSpeed: "网速测试", navTools: "网络工具", navRank: "全球排名", navSec: "安全指南",
@@ -179,24 +377,64 @@ const langData = {
     footerTrust: "信任",
     pageSpeedEyebrow: "基于浏览器的测试",
     pageSpeedTitle: "网络速度智能",
-    pageSpeedLead: "运行轻量级速度估算，测量 HTTP 延迟，并将最近五次结果仅保存在 LocalStorage 中。",
+    pageSpeedLead: "运行 Cloudflare 边缘节点下载/上传测试，测量 HTTP 延迟，并将最近五次结果仅保存在 LocalStorage 中。",
     statusReady: "就绪",
     statusStart: "选择服务器并开始",
     serverLabel: "服务器",
     btnGo: "开始",
     btnCopy: "复制结果",
     btnShare: "分享",
-    adPlaceholder: "AdSense 广告位占位符",
+    adPlaceholder: "赞助网络工具展示位",
+    unitMbps: "Mbps",
+    unitMs: "ms",
+    historyEmpty: "暂无本地测试记录。",
+    labelTesting: "测试中...",
+    statusMeasuring: "正在测量延迟与吞吐量",
+    statusCompleted: "测试完成",
+    btnAgain: "再次运行",
+    copyDone: "已复制",
+    copyResultText: "GlobalPing 结果：下载 {down} Mbps，上传 {up} Mbps",
+    topCountriesLabel: "固定宽带中位数下载",
+    ipChecking: "正在检测您的网络...",
+    ipLabelIP: "IP",
+    ipLabelLocation: "位置",
+    ipLabelISP: "ISP",
+    ipLabelProxy: "代理/VPN",
+    ipNoSignal: "无信号",
+    ipError: "IP 查询无法访问免费 API，请在可用网络下重试。",
+    pingTesting: "测试中...",
+    pingResult: "平均 HTTP 延迟 {value} ms",
+    adviceSlow: "运行有线速度测试，暂停云备份，然后使用工具箱对比 DNS 响应。",
+    adviceConnect: "重启光猫和路由器，确认 WAN 指示灯，然后在更改 DNS 前测试其他设备。",
+    advicePing: "选择最近的游戏/服务器区域，关闭流媒体应用，并检查 WiFi 信道拥堵。",
+    adviceDrops: "切换到 5 GHz 或 6 GHz，缩短与路由器的距离，并检查信道重叠。",
+    statusError: "速度测试端点不可用，请重试。",
+    historyUnavailable: "不可用",
+    unitNA: "不适用",
+    rankSource: "来源：{source} · {status} · 更新于 {updated}",
+    vpnSpeed: "速度",
+    vpnSecurity: "安全性",
+    vpnSourceLabel: "来源：",
+    ipUnknown: "未知",
+    ipPossibleVPN: "可能的 VPN",
+    proxySource: "来源：{source} · {status} · {updated}",
   }
 };
 
 // 支持的语言列表
 const supportedLangs = ["en", "zh", "es", "pt", "fr", "de", "ja"];
 const langNames = { en: "EN", zh: "中文", es: "ES", pt: "PT", fr: "FR", de: "DE", ja: "JA" };
+let currentLang = "en";
+
+function t(key, fallback = "") {
+  return (langData[currentLang] && langData[currentLang][key]) ||
+         (langData.en && langData.en[key]) ||
+         fallback;
+}
 
 function initLanguage() {
-  let currentLang = localStorage.getItem("globalping-lang");
-  if (!currentLang) {
+  currentLang = localStorage.getItem("globalping-lang");
+  if (!currentLang || !supportedLangs.includes(currentLang)) {
     const navLang = navigator.language.split("-")[0];
     currentLang = supportedLangs.includes(navLang) ? navLang : "en";
   }
@@ -249,12 +487,8 @@ function setGauge(value) {
   if (valueEl) valueEl.textContent = fmt(value, value < 100 ? 1 : 0);
 }
 
-function randomBetween(min, max) {
-  return min + Math.random() * (max - min);
-}
-
-async function measureLatency() {
-  const url = `https://www.cloudflare.com/cdn-cgi/trace?t=${Date.now()}`;
+async function measureLatency(traceEndpoint = "https://www.cloudflare.com/cdn-cgi/trace") {
+  const url = `${traceEndpoint}?t=${Date.now()}`;
   const attempts = [];
   for (let i = 0; i < 3; i += 1) {
     const started = performance.now();
@@ -262,41 +496,94 @@ async function measureLatency() {
       await fetch(url, { cache: "no-store", mode: "no-cors" });
       attempts.push(performance.now() - started);
     } catch {
-      attempts.push(randomBetween(18, 62));
+      attempts.push(null);
     }
   }
-  return Math.round(attempts.reduce((a, b) => a + b, 0) / attempts.length);
+  const valid = attempts.filter((value) => Number.isFinite(value));
+  if (!valid.length) return { ping: 0, jitter: 0 };
+  const ping = valid.reduce((a, b) => a + b, 0) / valid.length;
+  const jitter = valid.reduce((sum, value) => sum + Math.abs(value - ping), 0) / valid.length;
+  return { ping: Math.round(ping), jitter: Math.round(jitter) };
+}
+
+async function measureDownload(endpoint, bytes, onProgress) {
+  const started = performance.now();
+  const res = await fetch(`${endpoint}?bytes=${bytes}&cacheBust=${Date.now()}`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Download endpoint returned ${res.status}`);
+  const reader = res.body?.getReader();
+  if (!reader) {
+    const buffer = await res.arrayBuffer();
+    const seconds = (performance.now() - started) / 1000;
+    return (buffer.byteLength * 8) / seconds / 1000000;
+  }
+  let received = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    received += value.byteLength;
+    const seconds = Math.max((performance.now() - started) / 1000, 0.05);
+    onProgress?.((received * 8) / seconds / 1000000);
+  }
+  const seconds = (performance.now() - started) / 1000;
+  return (received * 8) / seconds / 1000000;
+}
+
+async function measureUpload(endpoint, bytes) {
+  const body = new Uint8Array(bytes);
+  for (let offset = 0; offset < body.length; offset += 65536) {
+    crypto.getRandomValues(body.subarray(offset, Math.min(offset + 65536, body.length)));
+  }
+  const started = performance.now();
+  const res = await fetch(`${endpoint}?cacheBust=${Date.now()}`, {
+    method: "POST",
+    body,
+    cache: "no-store"
+  });
+  if (!res.ok) throw new Error(`Upload endpoint returned ${res.status}`);
+  const seconds = (performance.now() - started) / 1000;
+  return (bytes * 8) / seconds / 1000000;
 }
 
 async function runSpeedTest() {
   const btn = $("[data-start-test]");
   if (!btn || btn.disabled) return;
   btn.disabled = true;
-  btn.textContent = "Testing...";
+  btn.textContent = t("labelTesting", "Testing...");
   const status = $("[data-test-status]");
-  if (status) status.textContent = "Measuring latency and throughput";
-  let speed = 0;
-  const target = randomBetween(135, 420);
-  const start = performance.now();
-  await new Promise((resolve) => {
-    function tick(now) {
-      const t = Math.min((now - start) / 2600, 1);
-      speed = target * (1 - Math.pow(1 - t, 3)) + Math.sin(t * 16) * 5;
-      setGauge(Math.max(speed, 0));
-      if (t < 1) requestAnimationFrame(tick);
-      else resolve();
+  if (status) status.textContent = t("statusMeasuring", "Measuring latency and throughput");
+  const speedConfig = await loadJSON("data/speed-nodes.json");
+  const selected = $("[data-speed-node]")?.value || "auto";
+  const node = speedConfig.nodes.find((item) => item.id === selected) || speedConfig.nodes[0];
+  let download = 0;
+  let upload = 0;
+  let ping = 0;
+  let jitter = 0;
+  try {
+    const latency = await measureLatency(speedConfig.traceEndpoint);
+    ping = latency.ping;
+    jitter = latency.jitter;
+    download = await measureDownload(speedConfig.downloadEndpoint, node.downloadBytes, setGauge);
+    setGauge(download);
+    try {
+      upload = await measureUpload(speedConfig.uploadEndpoint, node.uploadBytes);
+    } catch (error) {
+      console.warn("Upload test unavailable", error);
+      upload = 0;
     }
-    requestAnimationFrame(tick);
-  });
-  const ping = await measureLatency();
-  const jitter = Math.max(1, Math.round(randomBetween(2, 9)));
-  const upload = target * randomBetween(0.32, 0.56);
+  } catch (error) {
+    console.error(error);
+    if (status) status.textContent = t("statusError", "Speed test endpoint unavailable. Please try again.");
+    btn.disabled = false;
+    btn.textContent = t("btnAgain", "Run Again");
+    return;
+  }
   const result = {
     date: new Date().toLocaleString(),
-    download: Number(fmt(target, 1)),
+    download: Number(fmt(download, 1)),
     upload: Number(fmt(upload, 1)),
     ping,
-    jitter
+    jitter,
+    node: node.label
   };
   $$("[data-metric]").forEach((el) => {
     const key = el.dataset.metric;
@@ -306,23 +593,26 @@ async function runSpeedTest() {
   history.unshift(result);
   localStorage.setItem("globalping-history", JSON.stringify(history.slice(0, 5)));
   renderHistory();
-  if (status) status.textContent = "Test completed";
+  if (status) status.textContent = t("statusCompleted", "Test completed");
   btn.disabled = false;
-  btn.textContent = btn.dataset.doneLabel || "Run Again";
+  btn.textContent = t("btnAgain", "Run Again");
 }
 
 function renderHistory() {
   const body = $("[data-history]");
   if (!body) return;
   const history = JSON.parse(localStorage.getItem("globalping-history") || "[]");
+  const unitSpeed = t("unitMbps", "Mbps");
+  const unitLatency = t("unitMs", "ms");
+  const unavailable = t("historyUnavailable", "Unavailable");
   body.innerHTML = history.length ? history.map((item) => `
     <tr>
       <td>${item.date}</td>
-      <td>${item.download} Mbps</td>
-      <td>${item.upload} Mbps</td>
-      <td>${item.ping} ms</td>
-      <td>${item.jitter} ms</td>
-    </tr>`).join("") : `<tr><td colspan="5">No local tests yet.</td></tr>`;
+      <td>${item.download} ${unitSpeed}</td>
+      <td>${item.upload ? `${item.upload} ${unitSpeed}` : unavailable}</td>
+      <td>${item.ping} ${unitLatency}</td>
+      <td>${item.jitter} ${unitLatency}</td>
+    </tr>`).join("") : `<tr><td colspan="5">${t("historyEmpty", "No local tests yet.")}</td></tr>`;
 }
 
 async function renderRankings() {
@@ -330,6 +620,13 @@ async function renderRankings() {
   const topCountries = $("[data-top-countries]");
   if (!table && !topCountries) return;
   const data = await loadJSON("data/rankings.json");
+  const sourceEl = $("[data-ranking-source]");
+  if (sourceEl) {
+    const source = data.source || "public network dataset";
+    const status = data.sourceStatus || "synced";
+    sourceEl.textContent = t("rankSource", "Source: {source} · {status} · updated {updated}")
+      .replace("{source}", source).replace("{status}", status).replace("{updated}", data.updated);
+  }
   if (!table && topCountries) {
     renderTopCountries(data.fixed);
     return;
@@ -341,13 +638,16 @@ async function renderRankings() {
     let rows = data[mode];
     if (region !== "All") rows = rows.filter((row) => row.region === region);
     if (search) rows = rows.filter((row) => row.country.toLowerCase().includes(search));
+    const unitSpeed = t("unitMbps", "Mbps");
+    const unitLatency = t("unitMs", "ms");
+    const na = t("unitNA", "N/A");
     table.innerHTML = rows.map((row) => `
       <tr>
         <td class="mono">#${row.rank}</td>
         <td><strong>${flag(row.flag)} ${row.country}</strong><div class="fine">${row.region}</div></td>
-        <td><strong>${row.download} Mbps</strong><div class="bar"><span style="width:${Math.min(row.download / 420 * 100, 100)}%"></span></div></td>
-        <td>${row.upload} Mbps</td>
-        <td>${row.latency} ms</td>
+        <td><strong>${row.download} ${unitSpeed}</strong><div class="bar"><span style="width:${Math.min(row.download / 420 * 100, 100)}%"></span></div></td>
+        <td>${Number.isFinite(Number(row.upload)) ? `${row.upload} ${unitSpeed}` : na}</td>
+        <td>${Number.isFinite(Number(row.latency)) ? `${row.latency} ${unitLatency}` : na}</td>
         <td>${row.trend === "up" ? "↑" : row.trend === "down" ? "↓" : "→"}</td>
       </tr>`).join("");
     renderTopCountries(data.fixed);
@@ -379,7 +679,7 @@ function renderTopCountries(rows) {
       <span class="fine mono">#${row.rank}</span>
       <h3>${flag(row.flag)} ${row.country}</h3>
       <b>${row.download} Mbps</b>
-      <p class="fine">Median fixed broadband download</p>
+      <p class="fine">${t("topCountriesLabel", "Median fixed broadband download")}</p>
     </article>`).join("");
 }
 
@@ -393,8 +693,9 @@ async function hydrateDataLists() {
         <h3>${item.name}</h3>
         <p class="muted">${item.bestFor}</p>
         <p><strong>${item.score}/5</strong> · ${item.price}</p>
-        <div class="fine">Speed</div><div class="bar"><span style="width:${item.speed}%"></span></div>
-        <div class="fine">Security</div><div class="bar"><span style="width:${item.security}%"></span></div>
+        <div class="fine">${t("vpnSpeed", "Speed")}</div><div class="bar"><span style="width:${item.speed}%"></span></div>
+        <div class="fine">${t("vpnSecurity", "Security")}</div><div class="bar"><span style="width:${item.security}%"></span></div>
+        <p class="fine">${t("vpnSourceLabel", "Source:")} <a href="${item.source}" target="_blank" rel="noreferrer">${item.sourceStatus || t("ipUnknown", "Unknown")}</a></p>
       </article>`).join("");
   }
   const proxyBody = $("[data-proxy-list]");
@@ -402,6 +703,14 @@ async function hydrateDataLists() {
     const rows = await loadJSON("data/proxy-list.json");
     proxyBody.innerHTML = rows.map((item) => `
       <tr><td class="mono">${item.ip}</td><td>${item.location}</td><td>${item.type}</td><td>${item.speed}</td><td>${item.status}</td></tr>`).join("");
+    const sync = await loadJSON("data/sync_state.json").catch(() => null);
+    const proxySource = $("[data-proxy-source]");
+    if (proxySource && sync?.sources?.proxies) {
+      proxySource.textContent = t("proxySource", "Source: {source} · {status} · {updated}")
+        .replace("{source}", sync.sources.proxies.source)
+        .replace("{status}", sync.sources.proxies.status)
+        .replace("{updated}", sync.updated);
+    }
   }
   const dnsBody = $("[data-dns-list]");
   if (dnsBody) {
@@ -414,28 +723,37 @@ async function hydrateDataLists() {
 async function lookupIP() {
   const target = $("[data-ip-result]");
   if (!target) return;
-  target.innerHTML = "Checking your network...";
+  target.innerHTML = t("ipChecking", "Checking your network...");
   try {
     const res = await fetch("https://ipapi.co/json/");
     const data = await res.json();
     target.innerHTML = `
       <div class="grid grid-4">
-        <div class="metric card"><span class="fine">IP</span><b class="mono">${data.ip || "Unknown"}</b></div>
-        <div class="metric card"><span class="fine">Location</span><b>${data.city || "-"}, ${data.country_name || "-"}</b></div>
-        <div class="metric card"><span class="fine">ISP</span><b>${data.org || "Unknown"}</b></div>
-        <div class="metric card"><span class="fine">Proxy/VPN</span><b>No signal</b></div>
+        <div class="metric card"><span class="fine">${t("ipLabelIP", "IP")}</span><b class="mono">${data.ip || t("ipUnknown", "Unknown")}</b></div>
+        <div class="metric card"><span class="fine">${t("ipLabelLocation", "Location")}</span><b>${data.city || "-"}, ${data.country_name || "-"}</b></div>
+        <div class="metric card"><span class="fine">${t("ipLabelISP", "ISP")}</span><b>${data.org || t("ipUnknown", "Unknown")}</b></div>
+        <div class="metric card"><span class="fine">${t("ipLabelProxy", "Proxy/VPN")}</span><b>${data.security?.vpn ? t("ipPossibleVPN", "Possible VPN") : t("ipNoSignal", "No signal")}</b></div>
       </div>`;
   } catch {
-    target.innerHTML = "IP lookup could not reach the free API. Try again from a live connection.";
+    target.innerHTML = t("ipError", "IP lookup could not reach the free API. Try again from a live connection.");
   }
+}
+
+async function initSpeedNodes() {
+  const select = $("[data-speed-node]");
+  if (!select) return;
+  const config = await loadJSON("data/speed-nodes.json");
+  select.innerHTML = config.nodes.map((node) => `<option value="${node.id}">${node.label}</option>`).join("");
+  const source = $("[data-speed-source]");
+  if (source) source.textContent = `${config.provider} · ${config.sourceStatus || "configured"} · ${config.updated}`;
 }
 
 async function runPingTool() {
   const result = $("[data-ping-result]");
   if (!result) return;
-  result.textContent = "Testing...";
+  result.textContent = t("pingTesting");
   const latency = await measureLatency();
-  result.textContent = `${latency} ms average HTTP latency`;
+  result.textContent = t("pingResult").replace("{value}", latency.ping);
 }
 
 function initTabs() {
@@ -450,14 +768,8 @@ function initTabs() {
 function initTroubleshooter() {
   const output = $("[data-diagnosis]");
   if (!output) return;
-  const advice = {
-    slow: "Run a wired speed test, pause cloud backups, then compare DNS response from the toolkit.",
-    connect: "Power-cycle modem and router, verify WAN light, then test another device before changing DNS.",
-    ping: "Choose the nearest game/server region, close streaming apps, and check WiFi channel congestion.",
-    drops: "Move to 5 GHz or 6 GHz, reduce distance to the router, and check for overlapping channels."
-  };
   $$("[data-issue]").forEach((btn) => btn.addEventListener("click", () => {
-    output.textContent = advice[btn.dataset.issue];
+    output.textContent = t(`advice${btn.dataset.issue[0].toUpperCase()}${btn.dataset.issue.slice(1)}`);
   }));
 }
 
@@ -467,6 +779,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderHistory();
   renderRankings().catch(console.error);
   hydrateDataLists().catch(console.error);
+  initSpeedNodes().catch(console.error);
   initTabs();
   initTroubleshooter();
   const start = $("[data-start-test]");
@@ -477,8 +790,10 @@ document.addEventListener("DOMContentLoaded", () => {
   if (ping) ping.addEventListener("click", runPingTool);
   const copy = $("[data-copy-result]");
   if (copy) copy.addEventListener("click", async () => {
-    const text = `GlobalPing result: ${$("[data-metric='download']")?.textContent || 0} Mbps down, ${$("[data-metric='upload']")?.textContent || 0} Mbps up`;
+    const down = $("[data-metric='download']")?.textContent || 0;
+    const up = $("[data-metric='upload']")?.textContent || 0;
+    const text = t("copyResultText").replace("{down}", down).replace("{up}", up);
     await navigator.clipboard?.writeText(text);
-    copy.textContent = "Copied";
+    copy.textContent = t("copyDone");
   });
 });

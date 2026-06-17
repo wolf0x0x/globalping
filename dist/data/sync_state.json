@@ -1,0 +1,26 @@
+{
+  "updated": "2026-06-17T08:47:44.874Z",
+  "status": "synced",
+  "sources": {
+    "speedNodes": {
+      "status": "online",
+      "source": "Cloudflare Speed Test",
+      "endpoint": "https://speed.cloudflare.com/__down"
+    },
+    "rankings": {
+      "status": "synced",
+      "source": "https://www.speedtest.net/global-index",
+      "rows": 12
+    },
+    "proxies": {
+      "status": "synced",
+      "source": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.json",
+      "rows": 40
+    },
+    "vpnReviews": {
+      "status": "synced",
+      "source": "official provider URLs",
+      "rows": 4
+    }
+  }
+}

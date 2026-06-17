@@ -6,7 +6,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check-links.mjs",
-    "check:release": "node scripts/check-release.mjs"
+    "check:release": "node scripts/check-release.mjs",
+    "check:data": "node scripts/check-data.mjs",
+    "sync:data": "node scripts/sync-data.mjs"
   },
   "devDependencies": {}
 }
