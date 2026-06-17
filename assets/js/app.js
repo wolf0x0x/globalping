@@ -433,7 +433,8 @@ function t(key, fallback = "") {
 }
 
 function initLanguage() {
-  currentLang = localStorage.getItem("globalping-lang");
+  const requestedLang = new URLSearchParams(location.search).get("lang");
+  currentLang = supportedLangs.includes(requestedLang) ? requestedLang : localStorage.getItem("globalping-lang");
   if (!currentLang || !supportedLangs.includes(currentLang)) {
     const navLang = navigator.language.split("-")[0];
     currentLang = supportedLangs.includes(navLang) ? navLang : "en";
@@ -457,19 +458,18 @@ function initLanguage() {
     localStorage.setItem("globalping-lang", lang);
   };
 
-  const langBtn = $(".btn.ghost[href*='about-privacy.html']");
-  if (langBtn) {
-    langBtn.addEventListener("click", (e) => {
-      e.preventDefault();
-      let currentIndex = supportedLangs.indexOf(currentLang);
-      let nextIndex = (currentIndex + 1) % supportedLangs.length;
-      currentLang = supportedLangs[nextIndex];
-
+  $$("[data-lang-select]").forEach((select) => {
+    select.value = currentLang;
+    select.addEventListener("change", () => {
+      currentLang = select.value;
+      $$("[data-lang-select]").forEach((item) => item.value = currentLang);
       applyLanguage(currentLang);
-      langBtn.textContent = langNames[currentLang];
+      renderHistory();
+      renderRankings().catch(console.error);
+      hydrateDataLists().catch(console.error);
+      renderCountryDetail().catch(console.error);
     });
-    langBtn.textContent = langNames[currentLang];
-  }
+  });
   applyLanguage(currentLang);
 }
 
@@ -683,6 +683,61 @@ function renderTopCountries(rows) {
     </article>`).join("");
 }
 
+async function renderCountryDetail() {
+  const select = $("[data-country-select]");
+  if (!select) return;
+  const data = await loadJSON("data/countries.json");
+  const countries = data.countries || [];
+  const params = new URLSearchParams(location.search);
+  const requested = params.get("country") || params.get("c") || "Singapore";
+  if (!select.dataset.ready) {
+    select.innerHTML = countries.map((item) => `<option value="${item.country}">${item.flag} ${item.country}</option>`).join("");
+    select.addEventListener("change", () => {
+      const url = new URL(location.href);
+      url.searchParams.set("country", select.value);
+      history.replaceState(null, "", url);
+      drawCountry(countries.find((item) => item.country === select.value) || countries[0], data.updated);
+    });
+    select.dataset.ready = "true";
+  }
+  const country = countries.find((item) => item.country.toLowerCase() === requested.toLowerCase()) || countries[0];
+  select.value = country.country;
+  drawCountry(country, data.updated);
+}
+
+function drawCountry(country, updated) {
+  if (!country) return;
+  const unitSpeed = t("unitMbps", "Mbps");
+  const unitLatency = t("unitMs", "ms");
+  const title = $("[data-country-title]");
+  if (title) title.textContent = `${country.flag} ${country.country}`;
+  const crumb = $("[data-country-breadcrumb]");
+  if (crumb) crumb.textContent = country.country;
+  const lead = $("[data-country-lead]");
+  if (lead) lead.textContent = `${country.country} scores ${country.score}/10 with ${country.fixedDownload} ${unitSpeed} fixed broadband and ${country.mobileDownload} ${unitSpeed} mobile median download signals.`;
+  const updatedEl = $("[data-country-updated]");
+  if (updatedEl) updatedEl.textContent = `Dataset updated ${updated} · ${country.region}`;
+  const fixed = $("[data-country-fixed]");
+  if (fixed) fixed.textContent = `${country.fixedDownload} ${unitSpeed}`;
+  const mobile = $("[data-country-mobile]");
+  if (mobile) mobile.textContent = `${country.mobileDownload} ${unitSpeed}`;
+  const latency = $("[data-country-latency]");
+  if (latency) latency.textContent = `${country.latency} ${unitLatency}`;
+  const change = $("[data-country-change]");
+  if (change) change.textContent = `${country.annualChange > 0 ? "+" : ""}${country.annualChange}%`;
+  const isp = $("[data-country-isp]");
+  if (isp) {
+    isp.innerHTML = country.isps.map((row) => `<tr><td>${row.name}</td><td>${row.download} ${unitSpeed}</td><td>${row.upload} ${unitSpeed}</td><td>${row.rating}/5</td></tr>`).join("");
+  }
+  const trend = $("[data-country-trend]");
+  if (trend) {
+    const max = Math.max(...country.trend.map((row) => row.download), 1);
+    trend.innerHTML = country.trend.map((row) => `<div><span class="fine">${row.month}</span><div class="bar"><span style="width:${Math.round(row.download / max * 100)}%"></span></div><strong>${row.download} ${unitSpeed}</strong></div>`).join("");
+  }
+  const insight = $("[data-country-insight]");
+  if (insight) insight.textContent = `${country.country} is tracked in the ${country.region} cohort with ISP-level estimates and rolling 12-month speed trend data for search landing pages and user comparison.`;
+}
+
 async function hydrateDataLists() {
   const vpnGrid = $("[data-vpn-list]");
   if (vpnGrid) {
@@ -779,6 +834,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderHistory();
   renderRankings().catch(console.error);
   hydrateDataLists().catch(console.error);
+  renderCountryDetail().catch(console.error);
   initSpeedNodes().catch(console.error);
   initTabs();
   initTroubleshooter();

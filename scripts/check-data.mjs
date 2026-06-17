@@ -35,9 +35,19 @@ if (!speed.downloadEndpoint || !speed.uploadEndpoint || !Array.isArray(speed.nod
 const syncState = await json("sync_state.json");
 if (!syncState.updated || !syncState.sources) failures.push("sync_state.json is missing status metadata.");
 
+const countries = await json("countries.json");
+if (!countries.updated || !Array.isArray(countries.countries) || countries.countries.length < 50) failures.push("countries.json needs at least 50 country profiles and an updated date.");
+for (const row of countries.countries || []) {
+  if (!row.country || !row.flag || !row.region || !Number.isFinite(Number(row.fixedDownload)) || !Number.isFinite(Number(row.mobileDownload))) failures.push(`Invalid country profile: ${JSON.stringify(row)}`);
+  if (!Array.isArray(row.isps) || row.isps.length < 3) failures.push(`Country profile needs at least 3 ISP rows: ${row.country}`);
+  if (!Array.isArray(row.trend) || row.trend.length < 12) failures.push(`Country profile needs 12 trend points: ${row.country}`);
+}
+
+
+
 if (failures.length) {
   console.error(failures.join("\n"));
   process.exit(1);
 }
 
-console.log("Data checks passed for rankings, proxies, VPN metadata, speed nodes, and sync state.");
+console.log("Data checks passed for rankings, proxies, VPN metadata, speed nodes, country profiles, and sync state.");

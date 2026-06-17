@@ -37,6 +37,11 @@ for (const base of targets) {
     if (occurrences !== 2) failures.push(`${rel} should include exactly one Google tag snippet.`);
     if (!hasInit || !hasConfig) failures.push(`${rel} Google tag snippet is malformed.`);
     if (headIndex !== -1 && tagIndex > headIndex + 900) failures.push(`${rel} Google tag is not near the opening <head>.`);
+    if (!html.includes('rel="icon"') || !html.includes('assets/favicon.svg')) failures.push(`${rel} is missing the SVG favicon.`);
+    if (!html.includes('rel="manifest"') || !html.includes('site.webmanifest')) failures.push(`${rel} is missing the web manifest.`);
+    if (!html.includes("data-lang-select")) failures.push(`${rel} is missing the language selector.`);
+    if (!html.includes('hreflang="x-default"')) failures.push(`${rel} is missing hreflang alternates.`);
+    if (!html.includes('type="application/ld+json"') || !html.includes("data-schema")) failures.push(`${rel} is missing JSON-LD schema.`);
   }
 }
 
@@ -45,4 +50,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Release checks passed for ${checkedPages} source/dist pages, ads.txt, and Google tag ${tagId}.`);
+console.log(`Release checks passed for ${checkedPages} source/dist pages, ads.txt, Google tag, favicon, manifest, hreflang, language selector, and schema ${tagId}.`);

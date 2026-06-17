@@ -1,0 +1,2345 @@
+{
+  "updated": "2026-06-17",
+  "countries": [
+    {
+      "rank": 1,
+      "country": "Singapore",
+      "flag": "SG",
+      "region": "Asia",
+      "score": 9.8,
+      "fixedDownload": 410,
+      "mobileDownload": 262,
+      "latency": 12,
+      "annualChange": 9.3,
+      "isps": [
+        {
+          "name": "Singapore Fiber",
+          "download": 443,
+          "upload": 197,
+          "rating": 4.5
+        },
+        {
+          "name": "Singapore Broadband",
+          "download": 410,
+          "upload": 172,
+          "rating": 4.2
+        },
+        {
+          "name": "Singapore MobileNet",
+          "download": 262,
+          "upload": 58,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        388,
+        396,
+        400,
+        403,
+        407,
+        410,
+        412,
+        414,
+        417,
+        419,
+        421,
+        424
+      ]
+    },
+    {
+      "rank": 2,
+      "country": "United Arab Emirates",
+      "flag": "AE",
+      "region": "Middle East",
+      "score": 9.8,
+      "fixedDownload": 382,
+      "mobileDownload": 391,
+      "latency": 14,
+      "annualChange": 10,
+      "isps": [
+        {
+          "name": "United Arab Emirates Fiber",
+          "download": 413,
+          "upload": 183,
+          "rating": 4.5
+        },
+        {
+          "name": "United Arab Emirates Broadband",
+          "download": 382,
+          "upload": 160,
+          "rating": 4.2
+        },
+        {
+          "name": "United Arab Emirates MobileNet",
+          "download": 391,
+          "upload": 86,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        360,
+        368,
+        372,
+        375,
+        379,
+        382,
+        384,
+        386,
+        389,
+        391,
+        393,
+        396
+      ]
+    },
+    {
+      "rank": 3,
+      "country": "Hong Kong",
+      "flag": "HK",
+      "region": "Asia",
+      "score": 9.6,
+      "fixedDownload": 368,
+      "mobileDownload": 220,
+      "latency": 9,
+      "annualChange": 10.4,
+      "isps": [
+        {
+          "name": "Hong Kong Fiber",
+          "download": 397,
+          "upload": 177,
+          "rating": 4.5
+        },
+        {
+          "name": "Hong Kong Broadband",
+          "download": 368,
+          "upload": 155,
+          "rating": 4.2
+        },
+        {
+          "name": "Hong Kong MobileNet",
+          "download": 220,
+          "upload": 48,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        346,
+        354,
+        358,
+        361,
+        365,
+        368,
+        370,
+        372,
+        375,
+        377,
+        379,
+        382
+      ]
+    },
+    {
+      "rank": 4,
+      "country": "Chile",
+      "flag": "CL",
+      "region": "Americas",
+      "score": 9.2,
+      "fixedDownload": 337,
+      "mobileDownload": 118,
+      "latency": 22,
+      "annualChange": 11.4,
+      "isps": [
+        {
+          "name": "Chile Fiber",
+          "download": 364,
+          "upload": 162,
+          "rating": 4.5
+        },
+        {
+          "name": "Chile Broadband",
+          "download": 337,
+          "upload": 142,
+          "rating": 4.2
+        },
+        {
+          "name": "Chile MobileNet",
+          "download": 118,
+          "upload": 26,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        315,
+        323,
+        327,
+        330,
+        334,
+        337,
+        339,
+        341,
+        344,
+        346,
+        348,
+        351
+      ]
+    },
+    {
+      "rank": 5,
+      "country": "France",
+      "flag": "FR",
+      "region": "Europe",
+      "score": 9,
+      "fixedDownload": 318,
+      "mobileDownload": 167,
+      "latency": 18,
+      "annualChange": 12.2,
+      "isps": [
+        {
+          "name": "France Fiber",
+          "download": 343,
+          "upload": 153,
+          "rating": 4.5
+        },
+        {
+          "name": "France Broadband",
+          "download": 318,
+          "upload": 134,
+          "rating": 4.2
+        },
+        {
+          "name": "France MobileNet",
+          "download": 167,
+          "upload": 37,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        296,
+        304,
+        308,
+        311,
+        315,
+        318,
+        320,
+        322,
+        325,
+        327,
+        329,
+        332
+      ]
+    },
+    {
+      "rank": 6,
+      "country": "United States",
+      "flag": "US",
+      "region": "Americas",
+      "score": 8.6,
+      "fixedDownload": 287,
+      "mobileDownload": 196,
+      "latency": 24,
+      "annualChange": 13.6,
+      "isps": [
+        {
+          "name": "United States Fiber",
+          "download": 310,
+          "upload": 138,
+          "rating": 4.5
+        },
+        {
+          "name": "United States Broadband",
+          "download": 287,
+          "upload": 121,
+          "rating": 4.2
+        },
+        {
+          "name": "United States MobileNet",
+          "download": 196,
+          "upload": 43,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        265,
+        273,
+        277,
+        280,
+        284,
+        287,
+        289,
+        291,
+        294,
+        296,
+        298,
+        301
+      ]
+    },
+    {
+      "rank": 7,
+      "country": "Japan",
+      "flag": "JP",
+      "region": "Asia",
+      "score": 8.4,
+      "fixedDownload": 271,
+      "mobileDownload": 183,
+      "latency": 16,
+      "annualChange": 14.5,
+      "isps": [
+        {
+          "name": "Japan Fiber",
+          "download": 293,
+          "upload": 130,
+          "rating": 4.5
+        },
+        {
+          "name": "Japan Broadband",
+          "download": 271,
+          "upload": 114,
+          "rating": 4.2
+        },
+        {
+          "name": "Japan MobileNet",
+          "download": 183,
+          "upload": 40,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        249,
+        257,
+        261,
+        264,
+        268,
+        271,
+        273,
+        275,
+        278,
+        280,
+        282,
+        285
+      ]
+    },
+    {
+      "rank": 8,
+      "country": "Spain",
+      "flag": "ES",
+      "region": "Europe",
+      "score": 8.2,
+      "fixedDownload": 254,
+      "mobileDownload": 155,
+      "latency": 19,
+      "annualChange": 15.5,
+      "isps": [
+        {
+          "name": "Spain Fiber",
+          "download": 274,
+          "upload": 122,
+          "rating": 4.5
+        },
+        {
+          "name": "Spain Broadband",
+          "download": 254,
+          "upload": 107,
+          "rating": 4.2
+        },
+        {
+          "name": "Spain MobileNet",
+          "download": 155,
+          "upload": 34,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        232,
+        240,
+        244,
+        247,
+        251,
+        254,
+        256,
+        258,
+        261,
+        263,
+        265,
+        268
+      ]
+    },
+    {
+      "rank": 9,
+      "country": "Qatar",
+      "flag": "QA",
+      "region": "Middle East",
+      "score": 8.1,
+      "fixedDownload": 246,
+      "mobileDownload": 352,
+      "latency": 15,
+      "annualChange": 16.1,
+      "isps": [
+        {
+          "name": "Qatar Fiber",
+          "download": 266,
+          "upload": 118,
+          "rating": 4.5
+        },
+        {
+          "name": "Qatar Broadband",
+          "download": 246,
+          "upload": 103,
+          "rating": 4.2
+        },
+        {
+          "name": "Qatar MobileNet",
+          "download": 352,
+          "upload": 77,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        224,
+        232,
+        236,
+        239,
+        243,
+        246,
+        248,
+        250,
+        253,
+        255,
+        257,
+        260
+      ]
+    },
+    {
+      "rank": 10,
+      "country": "South Korea",
+      "flag": "KR",
+      "region": "Asia",
+      "score": 8,
+      "fixedDownload": 241,
+      "mobileDownload": 297,
+      "latency": 17,
+      "annualChange": 16.4,
+      "isps": [
+        {
+          "name": "South Korea Fiber",
+          "download": 260,
+          "upload": 116,
+          "rating": 4.5
+        },
+        {
+          "name": "South Korea Broadband",
+          "download": 241,
+          "upload": 101,
+          "rating": 4.2
+        },
+        {
+          "name": "South Korea MobileNet",
+          "download": 297,
+          "upload": 65,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        219,
+        227,
+        231,
+        234,
+        238,
+        241,
+        243,
+        245,
+        248,
+        250,
+        252,
+        255
+      ]
+    },
+    {
+      "rank": 11,
+      "country": "Denmark",
+      "flag": "DK",
+      "region": "Europe",
+      "score": 7.9,
+      "fixedDownload": 231,
+      "mobileDownload": 231,
+      "latency": 20,
+      "annualChange": 17.2,
+      "isps": [
+        {
+          "name": "Denmark Fiber",
+          "download": 249,
+          "upload": 111,
+          "rating": 4.5
+        },
+        {
+          "name": "Denmark Broadband",
+          "download": 231,
+          "upload": 97,
+          "rating": 4.2
+        },
+        {
+          "name": "Denmark MobileNet",
+          "download": 231,
+          "upload": 51,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        209,
+        217,
+        221,
+        224,
+        228,
+        231,
+        233,
+        235,
+        238,
+        240,
+        242,
+        245
+      ]
+    },
+    {
+      "rank": 12,
+      "country": "China",
+      "flag": "CN",
+      "region": "Asia",
+      "score": 7.7,
+      "fixedDownload": 218,
+      "mobileDownload": 218,
+      "latency": 26,
+      "annualChange": 18.4,
+      "isps": [
+        {
+          "name": "China Fiber",
+          "download": 235,
+          "upload": 105,
+          "rating": 4.5
+        },
+        {
+          "name": "China Broadband",
+          "download": 218,
+          "upload": 92,
+          "rating": 4.2
+        },
+        {
+          "name": "China MobileNet",
+          "download": 218,
+          "upload": 48,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        196,
+        204,
+        208,
+        211,
+        215,
+        218,
+        220,
+        222,
+        225,
+        227,
+        229,
+        232
+      ]
+    },
+    {
+      "rank": 13,
+      "country": "Brazil",
+      "flag": "BR",
+      "region": "Americas",
+      "score": 6.9,
+      "fixedDownload": 151,
+      "mobileDownload": 151,
+      "latency": 35,
+      "annualChange": 27.9,
+      "isps": [
+        {
+          "name": "Brazil Fiber",
+          "download": 163,
+          "upload": 72,
+          "rating": 4.5
+        },
+        {
+          "name": "Brazil Broadband",
+          "download": 151,
+          "upload": 63,
+          "rating": 4.2
+        },
+        {
+          "name": "Brazil MobileNet",
+          "download": 151,
+          "upload": 33,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        129,
+        137,
+        141,
+        144,
+        148,
+        151,
+        153,
+        155,
+        158,
+        160,
+        162,
+        165
+      ]
+    },
+    {
+      "rank": 14,
+      "country": "Romania",
+      "flag": "RO",
+      "region": "Europe",
+      "score": 7.4,
+      "fixedDownload": 190,
+      "mobileDownload": 111,
+      "latency": 24,
+      "annualChange": 21.4,
+      "isps": [
+        {
+          "name": "Romania Fiber",
+          "download": 205,
+          "upload": 91,
+          "rating": 4.5
+        },
+        {
+          "name": "Romania Broadband",
+          "download": 190,
+          "upload": 80,
+          "rating": 4.2
+        },
+        {
+          "name": "Romania MobileNet",
+          "download": 111,
+          "upload": 24,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        168,
+        176,
+        180,
+        183,
+        187,
+        190,
+        192,
+        194,
+        197,
+        199,
+        201,
+        204
+      ]
+    },
+    {
+      "rank": 15,
+      "country": "Thailand",
+      "flag": "TH",
+      "region": "Asia",
+      "score": 7.2,
+      "fixedDownload": 173,
+      "mobileDownload": 124,
+      "latency": 28,
+      "annualChange": 23.8,
+      "isps": [
+        {
+          "name": "Thailand Fiber",
+          "download": 187,
+          "upload": 83,
+          "rating": 4.5
+        },
+        {
+          "name": "Thailand Broadband",
+          "download": 173,
+          "upload": 73,
+          "rating": 4.2
+        },
+        {
+          "name": "Thailand MobileNet",
+          "download": 124,
+          "upload": 27,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        151,
+        159,
+        163,
+        166,
+        170,
+        173,
+        175,
+        177,
+        180,
+        182,
+        184,
+        187
+      ]
+    },
+    {
+      "rank": 16,
+      "country": "Switzerland",
+      "flag": "CH",
+      "region": "Europe",
+      "score": 7.4,
+      "fixedDownload": 190,
+      "mobileDownload": 177,
+      "latency": 18,
+      "annualChange": 21.4,
+      "isps": [
+        {
+          "name": "Switzerland Fiber",
+          "download": 205,
+          "upload": 91,
+          "rating": 4.5
+        },
+        {
+          "name": "Switzerland Broadband",
+          "download": 190,
+          "upload": 80,
+          "rating": 4.2
+        },
+        {
+          "name": "Switzerland MobileNet",
+          "download": 177,
+          "upload": 39,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        168,
+        176,
+        180,
+        183,
+        187,
+        190,
+        192,
+        194,
+        197,
+        199,
+        201,
+        204
+      ]
+    },
+    {
+      "rank": 17,
+      "country": "Canada",
+      "flag": "CA",
+      "region": "Americas",
+      "score": 7.8,
+      "fixedDownload": 221,
+      "mobileDownload": 146,
+      "latency": 23,
+      "annualChange": 18.1,
+      "isps": [
+        {
+          "name": "Canada Fiber",
+          "download": 239,
+          "upload": 106,
+          "rating": 4.5
+        },
+        {
+          "name": "Canada Broadband",
+          "download": 221,
+          "upload": 93,
+          "rating": 4.2
+        },
+        {
+          "name": "Canada MobileNet",
+          "download": 146,
+          "upload": 32,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        199,
+        207,
+        211,
+        214,
+        218,
+        221,
+        223,
+        225,
+        228,
+        230,
+        232,
+        235
+      ]
+    },
+    {
+      "rank": 18,
+      "country": "Germany",
+      "flag": "DE",
+      "region": "Europe",
+      "score": 7.5,
+      "fixedDownload": 198,
+      "mobileDownload": 138,
+      "latency": 22,
+      "annualChange": 20.5,
+      "isps": [
+        {
+          "name": "Germany Fiber",
+          "download": 214,
+          "upload": 95,
+          "rating": 4.5
+        },
+        {
+          "name": "Germany Broadband",
+          "download": 198,
+          "upload": 83,
+          "rating": 4.2
+        },
+        {
+          "name": "Germany MobileNet",
+          "download": 138,
+          "upload": 30,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        176,
+        184,
+        188,
+        191,
+        195,
+        198,
+        200,
+        202,
+        205,
+        207,
+        209,
+        212
+      ]
+    },
+    {
+      "rank": 19,
+      "country": "United Kingdom",
+      "flag": "GB",
+      "region": "Europe",
+      "score": 7.7,
+      "fixedDownload": 214,
+      "mobileDownload": 142,
+      "latency": 21,
+      "annualChange": 18.8,
+      "isps": [
+        {
+          "name": "United Kingdom Fiber",
+          "download": 231,
+          "upload": 103,
+          "rating": 4.5
+        },
+        {
+          "name": "United Kingdom Broadband",
+          "download": 214,
+          "upload": 90,
+          "rating": 4.2
+        },
+        {
+          "name": "United Kingdom MobileNet",
+          "download": 142,
+          "upload": 31,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        192,
+        200,
+        204,
+        207,
+        211,
+        214,
+        216,
+        218,
+        221,
+        223,
+        225,
+        228
+      ]
+    },
+    {
+      "rank": 20,
+      "country": "Netherlands",
+      "flag": "NL",
+      "region": "Europe",
+      "score": 7.9,
+      "fixedDownload": 235,
+      "mobileDownload": 156,
+      "latency": 17,
+      "annualChange": 16.9,
+      "isps": [
+        {
+          "name": "Netherlands Fiber",
+          "download": 254,
+          "upload": 113,
+          "rating": 4.5
+        },
+        {
+          "name": "Netherlands Broadband",
+          "download": 235,
+          "upload": 99,
+          "rating": 4.2
+        },
+        {
+          "name": "Netherlands MobileNet",
+          "download": 156,
+          "upload": 34,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        213,
+        221,
+        225,
+        228,
+        232,
+        235,
+        237,
+        239,
+        242,
+        244,
+        246,
+        249
+      ]
+    },
+    {
+      "rank": 21,
+      "country": "Sweden",
+      "flag": "SE",
+      "region": "Europe",
+      "score": 7.8,
+      "fixedDownload": 226,
+      "mobileDownload": 166,
+      "latency": 18,
+      "annualChange": 17.6,
+      "isps": [
+        {
+          "name": "Sweden Fiber",
+          "download": 244,
+          "upload": 108,
+          "rating": 4.5
+        },
+        {
+          "name": "Sweden Broadband",
+          "download": 226,
+          "upload": 95,
+          "rating": 4.2
+        },
+        {
+          "name": "Sweden MobileNet",
+          "download": 166,
+          "upload": 37,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        204,
+        212,
+        216,
+        219,
+        223,
+        226,
+        228,
+        230,
+        233,
+        235,
+        237,
+        240
+      ]
+    },
+    {
+      "rank": 22,
+      "country": "Norway",
+      "flag": "NO",
+      "region": "Europe",
+      "score": 7.7,
+      "fixedDownload": 218,
+      "mobileDownload": 159,
+      "latency": 20,
+      "annualChange": 18.4,
+      "isps": [
+        {
+          "name": "Norway Fiber",
+          "download": 235,
+          "upload": 105,
+          "rating": 4.5
+        },
+        {
+          "name": "Norway Broadband",
+          "download": 218,
+          "upload": 92,
+          "rating": 4.2
+        },
+        {
+          "name": "Norway MobileNet",
+          "download": 159,
+          "upload": 35,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        196,
+        204,
+        208,
+        211,
+        215,
+        218,
+        220,
+        222,
+        225,
+        227,
+        229,
+        232
+      ]
+    },
+    {
+      "rank": 23,
+      "country": "Finland",
+      "flag": "FI",
+      "region": "Europe",
+      "score": 7.6,
+      "fixedDownload": 208,
+      "mobileDownload": 153,
+      "latency": 20,
+      "annualChange": 19.4,
+      "isps": [
+        {
+          "name": "Finland Fiber",
+          "download": 225,
+          "upload": 100,
+          "rating": 4.5
+        },
+        {
+          "name": "Finland Broadband",
+          "download": 208,
+          "upload": 87,
+          "rating": 4.2
+        },
+        {
+          "name": "Finland MobileNet",
+          "download": 153,
+          "upload": 34,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        186,
+        194,
+        198,
+        201,
+        205,
+        208,
+        210,
+        212,
+        215,
+        217,
+        219,
+        222
+      ]
+    },
+    {
+      "rank": 24,
+      "country": "Italy",
+      "flag": "IT",
+      "region": "Europe",
+      "score": 7.2,
+      "fixedDownload": 176,
+      "mobileDownload": 121,
+      "latency": 27,
+      "annualChange": 23.4,
+      "isps": [
+        {
+          "name": "Italy Fiber",
+          "download": 190,
+          "upload": 84,
+          "rating": 4.5
+        },
+        {
+          "name": "Italy Broadband",
+          "download": 176,
+          "upload": 74,
+          "rating": 4.2
+        },
+        {
+          "name": "Italy MobileNet",
+          "download": 121,
+          "upload": 27,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        154,
+        162,
+        166,
+        169,
+        173,
+        176,
+        178,
+        180,
+        183,
+        185,
+        187,
+        190
+      ]
+    },
+    {
+      "rank": 25,
+      "country": "Portugal",
+      "flag": "PT",
+      "region": "Europe",
+      "score": 7.6,
+      "fixedDownload": 205,
+      "mobileDownload": 134,
+      "latency": 23,
+      "annualChange": 19.7,
+      "isps": [
+        {
+          "name": "Portugal Fiber",
+          "download": 221,
+          "upload": 98,
+          "rating": 4.5
+        },
+        {
+          "name": "Portugal Broadband",
+          "download": 205,
+          "upload": 86,
+          "rating": 4.2
+        },
+        {
+          "name": "Portugal MobileNet",
+          "download": 134,
+          "upload": 29,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        183,
+        191,
+        195,
+        198,
+        202,
+        205,
+        207,
+        209,
+        212,
+        214,
+        216,
+        219
+      ]
+    },
+    {
+      "rank": 26,
+      "country": "Poland",
+      "flag": "PL",
+      "region": "Europe",
+      "score": 7.3,
+      "fixedDownload": 186,
+      "mobileDownload": 119,
+      "latency": 25,
+      "annualChange": 22,
+      "isps": [
+        {
+          "name": "Poland Fiber",
+          "download": 201,
+          "upload": 89,
+          "rating": 4.5
+        },
+        {
+          "name": "Poland Broadband",
+          "download": 186,
+          "upload": 78,
+          "rating": 4.2
+        },
+        {
+          "name": "Poland MobileNet",
+          "download": 119,
+          "upload": 26,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        164,
+        172,
+        176,
+        179,
+        183,
+        186,
+        188,
+        190,
+        193,
+        195,
+        197,
+        200
+      ]
+    },
+    {
+      "rank": 27,
+      "country": "Australia",
+      "flag": "AU",
+      "region": "Oceania",
+      "score": 7.1,
+      "fixedDownload": 165,
+      "mobileDownload": 143,
+      "latency": 29,
+      "annualChange": 25.2,
+      "isps": [
+        {
+          "name": "Australia Fiber",
+          "download": 178,
+          "upload": 79,
+          "rating": 4.5
+        },
+        {
+          "name": "Australia Broadband",
+          "download": 165,
+          "upload": 69,
+          "rating": 4.2
+        },
+        {
+          "name": "Australia MobileNet",
+          "download": 143,
+          "upload": 31,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        143,
+        151,
+        155,
+        158,
+        162,
+        165,
+        167,
+        169,
+        172,
+        174,
+        176,
+        179
+      ]
+    },
+    {
+      "rank": 28,
+      "country": "New Zealand",
+      "flag": "NZ",
+      "region": "Oceania",
+      "score": 7.1,
+      "fixedDownload": 171,
+      "mobileDownload": 132,
+      "latency": 28,
+      "annualChange": 24.2,
+      "isps": [
+        {
+          "name": "New Zealand Fiber",
+          "download": 185,
+          "upload": 82,
+          "rating": 4.5
+        },
+        {
+          "name": "New Zealand Broadband",
+          "download": 171,
+          "upload": 72,
+          "rating": 4.2
+        },
+        {
+          "name": "New Zealand MobileNet",
+          "download": 132,
+          "upload": 29,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        149,
+        157,
+        161,
+        164,
+        168,
+        171,
+        173,
+        175,
+        178,
+        180,
+        182,
+        185
+      ]
+    },
+    {
+      "rank": 29,
+      "country": "India",
+      "flag": "IN",
+      "region": "Asia",
+      "score": 6.4,
+      "fixedDownload": 112,
+      "mobileDownload": 98,
+      "latency": 38,
+      "annualChange": 40,
+      "isps": [
+        {
+          "name": "India Fiber",
+          "download": 121,
+          "upload": 54,
+          "rating": 4.5
+        },
+        {
+          "name": "India Broadband",
+          "download": 112,
+          "upload": 47,
+          "rating": 4.2
+        },
+        {
+          "name": "India MobileNet",
+          "download": 98,
+          "upload": 22,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        90,
+        98,
+        102,
+        105,
+        109,
+        112,
+        114,
+        116,
+        119,
+        121,
+        123,
+        126
+      ]
+    },
+    {
+      "rank": 30,
+      "country": "Indonesia",
+      "flag": "ID",
+      "region": "Asia",
+      "score": 6.2,
+      "fixedDownload": 92,
+      "mobileDownload": 78,
+      "latency": 42,
+      "annualChange": 51.4,
+      "isps": [
+        {
+          "name": "Indonesia Fiber",
+          "download": 99,
+          "upload": 44,
+          "rating": 4.5
+        },
+        {
+          "name": "Indonesia Broadband",
+          "download": 92,
+          "upload": 39,
+          "rating": 4.2
+        },
+        {
+          "name": "Indonesia MobileNet",
+          "download": 78,
+          "upload": 17,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        70,
+        78,
+        82,
+        85,
+        89,
+        92,
+        94,
+        96,
+        99,
+        101,
+        103,
+        106
+      ]
+    },
+    {
+      "rank": 31,
+      "country": "Malaysia",
+      "flag": "MY",
+      "region": "Asia",
+      "score": 6.9,
+      "fixedDownload": 154,
+      "mobileDownload": 119,
+      "latency": 29,
+      "annualChange": 27.3,
+      "isps": [
+        {
+          "name": "Malaysia Fiber",
+          "download": 166,
+          "upload": 74,
+          "rating": 4.5
+        },
+        {
+          "name": "Malaysia Broadband",
+          "download": 154,
+          "upload": 65,
+          "rating": 4.2
+        },
+        {
+          "name": "Malaysia MobileNet",
+          "download": 119,
+          "upload": 26,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        132,
+        140,
+        144,
+        147,
+        151,
+        154,
+        156,
+        158,
+        161,
+        163,
+        165,
+        168
+      ]
+    },
+    {
+      "rank": 32,
+      "country": "Philippines",
+      "flag": "PH",
+      "region": "Asia",
+      "score": 6.2,
+      "fixedDownload": 98,
+      "mobileDownload": 86,
+      "latency": 44,
+      "annualChange": 47.4,
+      "isps": [
+        {
+          "name": "Philippines Fiber",
+          "download": 106,
+          "upload": 47,
+          "rating": 4.5
+        },
+        {
+          "name": "Philippines Broadband",
+          "download": 98,
+          "upload": 41,
+          "rating": 4.2
+        },
+        {
+          "name": "Philippines MobileNet",
+          "download": 86,
+          "upload": 19,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        76,
+        84,
+        88,
+        91,
+        95,
+        98,
+        100,
+        102,
+        105,
+        107,
+        109,
+        112
+      ]
+    },
+    {
+      "rank": 33,
+      "country": "Vietnam",
+      "flag": "VN",
+      "region": "Asia",
+      "score": 6.6,
+      "fixedDownload": 128,
+      "mobileDownload": 101,
+      "latency": 36,
+      "annualChange": 34,
+      "isps": [
+        {
+          "name": "Vietnam Fiber",
+          "download": 138,
+          "upload": 61,
+          "rating": 4.5
+        },
+        {
+          "name": "Vietnam Broadband",
+          "download": 128,
+          "upload": 54,
+          "rating": 4.2
+        },
+        {
+          "name": "Vietnam MobileNet",
+          "download": 101,
+          "upload": 22,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        106,
+        114,
+        118,
+        121,
+        125,
+        128,
+        130,
+        132,
+        135,
+        137,
+        139,
+        142
+      ]
+    },
+    {
+      "rank": 34,
+      "country": "Taiwan",
+      "flag": "TW",
+      "region": "Asia",
+      "score": 8,
+      "fixedDownload": 236,
+      "mobileDownload": 187,
+      "latency": 16,
+      "annualChange": 16.8,
+      "isps": [
+        {
+          "name": "Taiwan Fiber",
+          "download": 255,
+          "upload": 113,
+          "rating": 4.5
+        },
+        {
+          "name": "Taiwan Broadband",
+          "download": 236,
+          "upload": 99,
+          "rating": 4.2
+        },
+        {
+          "name": "Taiwan MobileNet",
+          "download": 187,
+          "upload": 41,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        214,
+        222,
+        226,
+        229,
+        233,
+        236,
+        238,
+        240,
+        243,
+        245,
+        247,
+        250
+      ]
+    },
+    {
+      "rank": 35,
+      "country": "Saudi Arabia",
+      "flag": "SA",
+      "region": "Middle East",
+      "score": 7.6,
+      "fixedDownload": 206,
+      "mobileDownload": 210,
+      "latency": 24,
+      "annualChange": 19.6,
+      "isps": [
+        {
+          "name": "Saudi Arabia Fiber",
+          "download": 222,
+          "upload": 99,
+          "rating": 4.5
+        },
+        {
+          "name": "Saudi Arabia Broadband",
+          "download": 206,
+          "upload": 87,
+          "rating": 4.2
+        },
+        {
+          "name": "Saudi Arabia MobileNet",
+          "download": 210,
+          "upload": 46,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        184,
+        192,
+        196,
+        199,
+        203,
+        206,
+        208,
+        210,
+        213,
+        215,
+        217,
+        220
+      ]
+    },
+    {
+      "rank": 36,
+      "country": "Israel",
+      "flag": "IL",
+      "region": "Middle East",
+      "score": 7.4,
+      "fixedDownload": 193,
+      "mobileDownload": 171,
+      "latency": 21,
+      "annualChange": 21.1,
+      "isps": [
+        {
+          "name": "Israel Fiber",
+          "download": 208,
+          "upload": 93,
+          "rating": 4.5
+        },
+        {
+          "name": "Israel Broadband",
+          "download": 193,
+          "upload": 81,
+          "rating": 4.2
+        },
+        {
+          "name": "Israel MobileNet",
+          "download": 171,
+          "upload": 38,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        171,
+        179,
+        183,
+        186,
+        190,
+        193,
+        195,
+        197,
+        200,
+        202,
+        204,
+        207
+      ]
+    },
+    {
+      "rank": 37,
+      "country": "Turkey",
+      "flag": "TR",
+      "region": "Middle East",
+      "score": 6.5,
+      "fixedDownload": 118,
+      "mobileDownload": 101,
+      "latency": 34,
+      "annualChange": 37.5,
+      "isps": [
+        {
+          "name": "Turkey Fiber",
+          "download": 127,
+          "upload": 57,
+          "rating": 4.5
+        },
+        {
+          "name": "Turkey Broadband",
+          "download": 118,
+          "upload": 50,
+          "rating": 4.2
+        },
+        {
+          "name": "Turkey MobileNet",
+          "download": 101,
+          "upload": 22,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        96,
+        104,
+        108,
+        111,
+        115,
+        118,
+        120,
+        122,
+        125,
+        127,
+        129,
+        132
+      ]
+    },
+    {
+      "rank": 38,
+      "country": "Mexico",
+      "flag": "MX",
+      "region": "Americas",
+      "score": 6.5,
+      "fixedDownload": 118,
+      "mobileDownload": 93,
+      "latency": 36,
+      "annualChange": 37.5,
+      "isps": [
+        {
+          "name": "Mexico Fiber",
+          "download": 127,
+          "upload": 57,
+          "rating": 4.5
+        },
+        {
+          "name": "Mexico Broadband",
+          "download": 118,
+          "upload": 50,
+          "rating": 4.2
+        },
+        {
+          "name": "Mexico MobileNet",
+          "download": 93,
+          "upload": 20,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        96,
+        104,
+        108,
+        111,
+        115,
+        118,
+        120,
+        122,
+        125,
+        127,
+        129,
+        132
+      ]
+    },
+    {
+      "rank": 39,
+      "country": "Argentina",
+      "flag": "AR",
+      "region": "Americas",
+      "score": 6.3,
+      "fixedDownload": 104,
+      "mobileDownload": 88,
+      "latency": 39,
+      "annualChange": 43.9,
+      "isps": [
+        {
+          "name": "Argentina Fiber",
+          "download": 112,
+          "upload": 50,
+          "rating": 4.5
+        },
+        {
+          "name": "Argentina Broadband",
+          "download": 104,
+          "upload": 44,
+          "rating": 4.2
+        },
+        {
+          "name": "Argentina MobileNet",
+          "download": 88,
+          "upload": 19,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        82,
+        90,
+        94,
+        97,
+        101,
+        104,
+        106,
+        108,
+        111,
+        113,
+        115,
+        118
+      ]
+    },
+    {
+      "rank": 40,
+      "country": "Colombia",
+      "flag": "CO",
+      "region": "Americas",
+      "score": 6.2,
+      "fixedDownload": 97,
+      "mobileDownload": 82,
+      "latency": 41,
+      "annualChange": 48,
+      "isps": [
+        {
+          "name": "Colombia Fiber",
+          "download": 105,
+          "upload": 47,
+          "rating": 4.5
+        },
+        {
+          "name": "Colombia Broadband",
+          "download": 97,
+          "upload": 41,
+          "rating": 4.2
+        },
+        {
+          "name": "Colombia MobileNet",
+          "download": 82,
+          "upload": 18,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        75,
+        83,
+        87,
+        90,
+        94,
+        97,
+        99,
+        101,
+        104,
+        106,
+        108,
+        111
+      ]
+    },
+    {
+      "rank": 41,
+      "country": "Peru",
+      "flag": "PE",
+      "region": "Americas",
+      "score": 6.1,
+      "fixedDownload": 91,
+      "mobileDownload": 76,
+      "latency": 43,
+      "annualChange": 52.2,
+      "isps": [
+        {
+          "name": "Peru Fiber",
+          "download": 98,
+          "upload": 44,
+          "rating": 4.5
+        },
+        {
+          "name": "Peru Broadband",
+          "download": 91,
+          "upload": 38,
+          "rating": 4.2
+        },
+        {
+          "name": "Peru MobileNet",
+          "download": 76,
+          "upload": 17,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        69,
+        77,
+        81,
+        84,
+        88,
+        91,
+        93,
+        95,
+        98,
+        100,
+        102,
+        105
+      ]
+    },
+    {
+      "rank": 42,
+      "country": "South Africa",
+      "flag": "ZA",
+      "region": "Africa",
+      "score": 6,
+      "fixedDownload": 82,
+      "mobileDownload": 71,
+      "latency": 48,
+      "annualChange": 60,
+      "isps": [
+        {
+          "name": "South Africa Fiber",
+          "download": 89,
+          "upload": 39,
+          "rating": 4.5
+        },
+        {
+          "name": "South Africa Broadband",
+          "download": 82,
+          "upload": 34,
+          "rating": 4.2
+        },
+        {
+          "name": "South Africa MobileNet",
+          "download": 71,
+          "upload": 16,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        60,
+        68,
+        72,
+        75,
+        79,
+        82,
+        84,
+        86,
+        89,
+        91,
+        93,
+        96
+      ]
+    },
+    {
+      "rank": 43,
+      "country": "Egypt",
+      "flag": "EG",
+      "region": "Africa",
+      "score": 5.8,
+      "fixedDownload": 61,
+      "mobileDownload": 54,
+      "latency": 55,
+      "annualChange": 92.3,
+      "isps": [
+        {
+          "name": "Egypt Fiber",
+          "download": 66,
+          "upload": 29,
+          "rating": 4.5
+        },
+        {
+          "name": "Egypt Broadband",
+          "download": 61,
+          "upload": 26,
+          "rating": 4.2
+        },
+        {
+          "name": "Egypt MobileNet",
+          "download": 54,
+          "upload": 12,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        39,
+        47,
+        51,
+        54,
+        58,
+        61,
+        63,
+        65,
+        68,
+        70,
+        72,
+        75
+      ]
+    },
+    {
+      "rank": 44,
+      "country": "Morocco",
+      "flag": "MA",
+      "region": "Africa",
+      "score": 5.9,
+      "fixedDownload": 72,
+      "mobileDownload": 63,
+      "latency": 51,
+      "annualChange": 72,
+      "isps": [
+        {
+          "name": "Morocco Fiber",
+          "download": 78,
+          "upload": 35,
+          "rating": 4.5
+        },
+        {
+          "name": "Morocco Broadband",
+          "download": 72,
+          "upload": 30,
+          "rating": 4.2
+        },
+        {
+          "name": "Morocco MobileNet",
+          "download": 63,
+          "upload": 14,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        50,
+        58,
+        62,
+        65,
+        69,
+        72,
+        74,
+        76,
+        79,
+        81,
+        83,
+        86
+      ]
+    },
+    {
+      "rank": 45,
+      "country": "Kenya",
+      "flag": "KE",
+      "region": "Africa",
+      "score": 5.7,
+      "fixedDownload": 58,
+      "mobileDownload": 52,
+      "latency": 56,
+      "annualChange": 100,
+      "isps": [
+        {
+          "name": "Kenya Fiber",
+          "download": 63,
+          "upload": 28,
+          "rating": 4.5
+        },
+        {
+          "name": "Kenya Broadband",
+          "download": 58,
+          "upload": 24,
+          "rating": 4.2
+        },
+        {
+          "name": "Kenya MobileNet",
+          "download": 52,
+          "upload": 11,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        36,
+        44,
+        48,
+        51,
+        55,
+        58,
+        60,
+        62,
+        65,
+        67,
+        69,
+        72
+      ]
+    },
+    {
+      "rank": 46,
+      "country": "Nigeria",
+      "flag": "NG",
+      "region": "Africa",
+      "score": 5.6,
+      "fixedDownload": 45,
+      "mobileDownload": 41,
+      "latency": 62,
+      "annualChange": 156.5,
+      "isps": [
+        {
+          "name": "Nigeria Fiber",
+          "download": 49,
+          "upload": 22,
+          "rating": 4.5
+        },
+        {
+          "name": "Nigeria Broadband",
+          "download": 45,
+          "upload": 19,
+          "rating": 4.2
+        },
+        {
+          "name": "Nigeria MobileNet",
+          "download": 41,
+          "upload": 9,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        23,
+        31,
+        35,
+        38,
+        42,
+        45,
+        47,
+        49,
+        52,
+        54,
+        56,
+        59
+      ]
+    },
+    {
+      "rank": 47,
+      "country": "Ireland",
+      "flag": "IE",
+      "region": "Europe",
+      "score": 7.5,
+      "fixedDownload": 201,
+      "mobileDownload": 143,
+      "latency": 20,
+      "annualChange": 20.1,
+      "isps": [
+        {
+          "name": "Ireland Fiber",
+          "download": 217,
+          "upload": 96,
+          "rating": 4.5
+        },
+        {
+          "name": "Ireland Broadband",
+          "download": 201,
+          "upload": 84,
+          "rating": 4.2
+        },
+        {
+          "name": "Ireland MobileNet",
+          "download": 143,
+          "upload": 31,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        179,
+        187,
+        191,
+        194,
+        198,
+        201,
+        203,
+        205,
+        208,
+        210,
+        212,
+        215
+      ]
+    },
+    {
+      "rank": 48,
+      "country": "Belgium",
+      "flag": "BE",
+      "region": "Europe",
+      "score": 7.5,
+      "fixedDownload": 199,
+      "mobileDownload": 137,
+      "latency": 21,
+      "annualChange": 20.3,
+      "isps": [
+        {
+          "name": "Belgium Fiber",
+          "download": 215,
+          "upload": 96,
+          "rating": 4.5
+        },
+        {
+          "name": "Belgium Broadband",
+          "download": 199,
+          "upload": 84,
+          "rating": 4.2
+        },
+        {
+          "name": "Belgium MobileNet",
+          "download": 137,
+          "upload": 30,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        177,
+        185,
+        189,
+        192,
+        196,
+        199,
+        201,
+        203,
+        206,
+        208,
+        210,
+        213
+      ]
+    },
+    {
+      "rank": 49,
+      "country": "Austria",
+      "flag": "AT",
+      "region": "Europe",
+      "score": 7.3,
+      "fixedDownload": 187,
+      "mobileDownload": 126,
+      "latency": 22,
+      "annualChange": 21.8,
+      "isps": [
+        {
+          "name": "Austria Fiber",
+          "download": 202,
+          "upload": 90,
+          "rating": 4.5
+        },
+        {
+          "name": "Austria Broadband",
+          "download": 187,
+          "upload": 79,
+          "rating": 4.2
+        },
+        {
+          "name": "Austria MobileNet",
+          "download": 126,
+          "upload": 28,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        165,
+        173,
+        177,
+        180,
+        184,
+        187,
+        189,
+        191,
+        194,
+        196,
+        198,
+        201
+      ]
+    },
+    {
+      "rank": 50,
+      "country": "Czechia",
+      "flag": "CZ",
+      "region": "Europe",
+      "score": 7.3,
+      "fixedDownload": 184,
+      "mobileDownload": 122,
+      "latency": 23,
+      "annualChange": 22.2,
+      "isps": [
+        {
+          "name": "Czechia Fiber",
+          "download": 199,
+          "upload": 88,
+          "rating": 4.5
+        },
+        {
+          "name": "Czechia Broadband",
+          "download": 184,
+          "upload": 77,
+          "rating": 4.2
+        },
+        {
+          "name": "Czechia MobileNet",
+          "download": 122,
+          "upload": 27,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        162,
+        170,
+        174,
+        177,
+        181,
+        184,
+        186,
+        188,
+        191,
+        193,
+        195,
+        198
+      ]
+    },
+    {
+      "rank": 51,
+      "country": "Greece",
+      "flag": "GR",
+      "region": "Europe",
+      "score": 6.3,
+      "fixedDownload": 108,
+      "mobileDownload": 89,
+      "latency": 35,
+      "annualChange": 41.9,
+      "isps": [
+        {
+          "name": "Greece Fiber",
+          "download": 117,
+          "upload": 52,
+          "rating": 4.5
+        },
+        {
+          "name": "Greece Broadband",
+          "download": 108,
+          "upload": 45,
+          "rating": 4.2
+        },
+        {
+          "name": "Greece MobileNet",
+          "download": 89,
+          "upload": 20,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        86,
+        94,
+        98,
+        101,
+        105,
+        108,
+        110,
+        112,
+        115,
+        117,
+        119,
+        122
+      ]
+    },
+    {
+      "rank": 52,
+      "country": "Hungary",
+      "flag": "HU",
+      "region": "Europe",
+      "score": 7.2,
+      "fixedDownload": 178,
+      "mobileDownload": 118,
+      "latency": 25,
+      "annualChange": 23.1,
+      "isps": [
+        {
+          "name": "Hungary Fiber",
+          "download": 192,
+          "upload": 85,
+          "rating": 4.5
+        },
+        {
+          "name": "Hungary Broadband",
+          "download": 178,
+          "upload": 75,
+          "rating": 4.2
+        },
+        {
+          "name": "Hungary MobileNet",
+          "download": 118,
+          "upload": 26,
+          "rating": 4
+        }
+      ],
+      "trend": [
+        156,
+        164,
+        168,
+        171,
+        175,
+        178,
+        180,
+        182,
+        185,
+        187,
+        189,
+        192
+      ]
+    }
+  ]
+}
