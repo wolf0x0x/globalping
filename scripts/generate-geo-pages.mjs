@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = "/Users/f0x3_macmini/code/globalping";
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const read = (p) => readFileSync(join(root, p), "utf8");
 const write = (p, s) => writeFileSync(join(root, p), s);
 
