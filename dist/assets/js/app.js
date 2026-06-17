@@ -4,6 +4,69 @@ const fmt = (n, digits = 0) => Number(n).toFixed(digits);
 const flag = (code) => code.replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt()));
 const rootPrefix = location.pathname.includes("/pages/") ? ".." : ".";
 
+// ================= 多语言本地化字典 =================
+const langData = {
+  en: {
+    navSpeed: "Speed Test", navTools: "Tools", navRank: "Rankings", navSec: "Security",
+    heroTitle: "Test your internet speed anywhere in the world.",
+    heroLead: "GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics.",
+    btnStart: "Start Speed Test", btnOpen: "Open Toolkit",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter"
+  },
+  zh: {
+    navSpeed: "网速测试", navTools: "网络工具", navRank: "全球排名", navSec: "安全指南",
+    heroTitle: "测试您在全球任何地方的互联网网速。",
+    heroLead: "GlobalPing 聚合了浏览器轻量测速、全球国家网速排行、DNS设置指南、VPN/代理评测及日常网络故障排查工具。",
+    btnStart: "开始网速测试", btnOpen: "打开工具箱",
+    metricDown: "下载速度", metricUp: "上传速度", metricPing: "网络延迟", metricJitter: "抖动"
+  }
+};
+
+function initLanguage() {
+  let currentLang = localStorage.getItem("globalping-lang") || "en";
+
+  const applyLanguage = (lang) => {
+    $$("[data-i18n]").forEach(el => {
+      const key = el.dataset.i18n;
+      if (langData[lang] && langData[lang][key]) {
+        if (el.tagName === "INPUT" || el.tagName === "SELECT") {
+          el.placeholder = langData[lang][key];
+        } else {
+          el.textContent = langData[lang][key];
+        }
+      }
+    });
+    localStorage.setItem("globalping-lang", lang);
+  };
+
+  const langBtn = $(".btn.ghost[href*='about-privacy.html']");
+  if (langBtn) {
+    langBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      currentLang = currentLang === "en" ? "zh" : "en";
+      applyLanguage(currentLang);
+      langBtn.textContent = currentLang === "en" ? "EN / 中文" : "中文 / EN";
+    });
+    langBtn.textContent = currentLang === "en" ? "EN / 中文" : "中文 / EN";
+  }
+  applyLanguage(currentLang);
+}
+
+// ================= Google Analytics 脚本注入 =================
+function initAnalytics() {
+  if (!window.gtag) {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-DDHNR5DW95";
+    document.head.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DDHNR5DW95');
+  }
+}
+
 async function loadJSON(path) {
   const res = await fetch(`${rootPrefix}/${path}`);
   if (!res.ok) throw new Error(`Unable to load ${path}`);
@@ -231,6 +294,8 @@ function initTroubleshooter() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  initAnalytics();
+  initLanguage();
   setGauge(0);
   renderHistory();
   renderRankings().catch(console.error);

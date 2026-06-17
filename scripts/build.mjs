@@ -8,7 +8,7 @@ const dist = resolve(root, "dist");
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
-for (const entry of ["index.html", "pages", "assets", "data", "CNAME", "robots.txt", "sitemap.xml"]) {
+for (const entry of ["index.html", "pages", "assets", "data", "CNAME", "robots.txt", "sitemap.xml", "ads.txt", ".nojekyll"]) {
   await cp(resolve(root, entry), resolve(dist, entry), { recursive: true });
 }
 
