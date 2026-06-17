@@ -298,3 +298,5 @@ tr:hover td { background: #f8fbff; }
   .input-row { flex-direction: column; }
   .speed-value { font-size: 46px; }
 }
+
+.seo-geo-snapshot { display: none !important; }

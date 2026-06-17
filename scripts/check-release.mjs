@@ -9,9 +9,14 @@ const tagId = "G-DDHNR5DW95";
 
 async function collectHtml(base) {
   const files = [resolve(base, "index.html"), resolve(base, "about.html"), resolve(base, "privacy.html")];
-  for (const name of await readdir(resolve(base, "pages"))) {
-    if (name.endsWith(".html")) files.push(join(base, "pages", name));
+  async function walk(dir) {
+    for (const name of await readdir(dir)) {
+      const target = join(dir, name);
+      if (name.endsWith(".html")) files.push(target);
+      if (!name.includes(".")) await walk(target).catch(() => {});
+    }
   }
+  await walk(resolve(base, "pages"));
   return files;
 }
 

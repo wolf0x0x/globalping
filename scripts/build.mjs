@@ -5,6 +5,8 @@ import { fileURLToPath } from "node:url";
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const dist = resolve(root, "dist");
 
+await import("./generate-geo-pages.mjs");
+
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 
