@@ -8,6 +8,8 @@
     "check": "node scripts/check-links.mjs",
     "check:release": "node scripts/check-release.mjs",
     "check:data": "node scripts/check-data.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:seo": "node scripts/seo-health.mjs",
     "sync:data": "node scripts/sync-data.mjs"
   },
   "devDependencies": {}

@@ -9,9 +9,9 @@ const langData = {
   en: {
     navSpeed: "Speed Test", navTools: "Tools", navRank: "Rankings", navSec: "Security",
     heroTitle: "Test your internet speed anywhere in the world.",
-    heroLead: "GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics.",
+    heroLead: "GlobalPing combines a browser speed test, global country rankings, DNS setup guides, VPN reviews and everyday diagnostics in one static, privacy-conscious toolkit.",
     btnStart: "Start Speed Test", btnOpen: "Open Toolkit",
-    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter", metricLoss: "Packet Loss",
     historyTitle: "Recent local tests", tableTime: "Time", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
     heroEyebrow: "Live network intelligence",
     snapshotTitle: "Global speed snapshot",
@@ -64,13 +64,14 @@ const langData = {
     ipUnknown: "Unknown",
     ipPossibleVPN: "Possible VPN",
     proxySource: "Source: {source} · {status} · {updated}",
+    countryInsight: "{country} is tracked in the {region} cohort with ISP-level estimates and rolling 12-month speed trend data for search landing pages and user comparison.",
   },
   es: {
     navSpeed: "Prueba de Velocidad", navTools: "Herramientas", navRank: "Clasificaciones", navSec: "Seguridad",
     heroTitle: "Prueba tu velocidad de internet en cualquier parte del mundo.",
     heroLead: "GlobalPing combina una prueba de velocidad del navegador, clasificaciones mundiales, guías de DNS, reseñas de VPN y diagnósticos diarios.",
     btnStart: "Iniciar Prueba", btnOpen: "Abrir Herramientas",
-    metricDown: "Descarga", metricUp: "Subida", metricPing: "Ping", metricJitter: "Jitter",
+    metricDown: "Descarga", metricUp: "Subida", metricPing: "Ping", metricJitter: "Jitter", metricLoss: "Pérdida de paquetes",
     historyTitle: "Pruebas locales recientes", tableTime: "Hora", tableDown: "Descarga", tableUp: "Subida", tablePing: "Ping", tableJitter: "Jitter",
     heroEyebrow: "Inteligencia de red en vivo",
     snapshotTitle: "Instantánea global de velocidad",
@@ -123,13 +124,16 @@ const langData = {
     ipUnknown: "Desconocido",
     ipPossibleVPN: "Posible VPN",
     proxySource: "Fuente: {source} · {status} · {updated}",
+    "Download": "Descarga",
+    "Upload": "Subida",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Los nodos más oscuros indican mayores velocidades medianas de descarga del conjunto de datos público sincronizado."
   },
   pt: {
     navSpeed: "Teste de Velocidade", navTools: "Ferramentas", navRank: "Classificações", navSec: "Segurança",
     heroTitle: "Teste a sua velocidade de internet em qualquer lugar do mundo.",
     heroLead: "GlobalPing combina um teste de velocidade no navegador, classificações globais de países, guias de DNS, avaliações de VPN e diagnósticos diários.",
     btnStart: "Iniciar Teste", btnOpen: "Abrir Ferramentas",
-    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter", metricLoss: "Perda de pacotes",
     historyTitle: "Testes locais recentes", tableTime: "Hora", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
     heroEyebrow: "Inteligência de rede ao vivo",
     snapshotTitle: "Instantâneo global de velocidade",
@@ -182,13 +186,14 @@ const langData = {
     ipUnknown: "Desconhecido",
     ipPossibleVPN: "Possível VPN",
     proxySource: "Fonte: {source} · {status} · {updated}",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Nós mais escuros indicam maiores velocidades medianas de download no conjunto público sincronizado."
   },
   fr: {
     navSpeed: "Test de Débit", navTools: "Outils", navRank: "Classements", navSec: "Sécurité",
     heroTitle: "Testez votre vitesse Internet partout dans le monde.",
     heroLead: "GlobalPing combine un test de vitesse par navigateur, des classements mondiaux, des guides de configuration DNS, des avis VPN et des diagnostics quotidiens.",
     btnStart: "Lancer le Test", btnOpen: "Ouvrir la Boîte",
-    metricDown: "Téléchargement", metricUp: "Téléversement", metricPing: "Ping", metricJitter: "Jitter",
+    metricDown: "Téléchargement", metricUp: "Téléversement", metricPing: "Ping", metricJitter: "Jitter", metricLoss: "Perte de paquets",
     historyTitle: "Tests locaux récents", tableTime: "Heure", tableDown: "Téléchargement", tableUp: "Téléversement", tablePing: "Ping", tableJitter: "Jitter",
     heroEyebrow: "Intelligence réseau en direct",
     snapshotTitle: "Aperçu mondial de la vitesse",
@@ -241,13 +246,16 @@ const langData = {
     ipUnknown: "Inconnu",
     ipPossibleVPN: "VPN possible",
     proxySource: "Source : {source} · {status} · {updated}",
+    "Download": "Téléchargement",
+    "Upload": "Téléversement",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Les points plus sombres indiquent des vitesses médianes de téléchargement plus élevées dans le dernier jeu de données public synchronisé."
   },
   de: {
     navSpeed: "Speedtest", navTools: "Tools", navRank: "Rankings", navSec: "Sicherheit",
     heroTitle: "Testen Sie Ihre Internetgeschwindigkeit überall auf der Welt.",
     heroLead: "GlobalPing kombiniert einen Browser-Speedtest, globale Länder-Rankings, DNS-Anleitungen, VPN-Bewertungen und alltägliche Diagnosen.",
     btnStart: "Test Starten", btnOpen: "Tools Öffnen",
-    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter",
+    metricDown: "Download", metricUp: "Upload", metricPing: "Ping", metricJitter: "Jitter", metricLoss: "Paketverlust",
     historyTitle: "Jüngste lokale Tests", tableTime: "Zeit", tableDown: "Download", tableUp: "Upload", tablePing: "Ping", tableJitter: "Jitter",
     heroEyebrow: "Live-Netzwerk-Intelligenz",
     snapshotTitle: "Globaler Geschwindigkeits-Überblick",
@@ -300,13 +308,14 @@ const langData = {
     ipUnknown: "Unbekannt",
     ipPossibleVPN: "Mögliches VPN",
     proxySource: "Quelle: {source} · {status} · {updated}",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Dunklere Punkte zeigen höhere mediane Download-Geschwindigkeiten im neuesten synchronisierten öffentlichen Datensatz."
   },
   ja: {
     navSpeed: "速度テスト", navTools: "ツール", navRank: "世界ランキング", navSec: "セキュリティ",
     heroTitle: "世界中どこでもインターネット速度をテスト。",
     heroLead: "GlobalPingは、ブラウザ速度テスト、世界国別ランキング、DNS設定ガイド、VPNレビュー、日常的なネットワーク診断を統合しています。",
     btnStart: "テスト開始", btnOpen: "ツールを開く",
-    metricDown: "ダウンロード", metricUp: "アップロード", metricPing: "レイテンシ", metricJitter: "ジッター",
+    metricDown: "ダウンロード", metricUp: "アップロード", metricPing: "レイテンシ", metricJitter: "ジッター", metricLoss: "パケット損失",
     historyTitle: "最近のローカルテスト", tableTime: "時間", tableDown: "ダウンロード", tableUp: "アップロード", tablePing: "レイテンシ", tableJitter: "ジッター",
     heroEyebrow: "ライブネットワーク情報",
     snapshotTitle: "世界の速度スナップショット",
@@ -359,13 +368,16 @@ const langData = {
     ipUnknown: "不明",
     ipPossibleVPN: "可能性のある VPN",
     proxySource: "ソース: {source} · {status} · {updated}",
+    "Download": "ダウンロード",
+    "Upload": "アップロード",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "暗いノードは、最新の同期済み公開データセットで中央値ダウンロード速度が高いことを示します。"
   },
   zh: {
     navSpeed: "网速测试", navTools: "网络工具", navRank: "全球排名", navSec: "安全指南",
     heroTitle: "测试您在全球任何地方的互联网网速。",
     heroLead: "GlobalPing 聚合了浏览器轻量测速、全球国家网速排行、DNS设置指南、VPN/代理评测及日常网络故障排查工具。",
     btnStart: "开始网速测试", btnOpen: "打开工具箱",
-    metricDown: "下载速度", metricUp: "上传速度", metricPing: "网络延迟", metricJitter: "抖动",
+    metricDown: "下载速度", metricUp: "上传速度", metricPing: "网络延迟", metricJitter: "抖动", metricLoss: "丢包率",
     historyTitle: "最近的本地测试", tableTime: "时间", tableDown: "下载速度", tableUp: "上传速度", tablePing: "网络延迟", tableJitter: "抖动",
     heroEyebrow: "实时网络情报",
     snapshotTitle: "全球速度概览",
@@ -418,8 +430,395 @@ const langData = {
     ipUnknown: "未知",
     ipPossibleVPN: "可能的 VPN",
     proxySource: "来源：{source} · {status} · {updated}",
+    countryInsight: "{country} 属于 {region} 区域数据集，包含 ISP 估算和 12 个月趋势，便于用户比较与搜索落地页展示。",
   }
 };
+
+
+const textTranslations = {
+  zh: {
+    "Proxy & VPN Reviews": "代理与 VPN 评测",
+    "Compare speed, privacy, price and use cases across leading providers.": "按速度、隐私、价格和使用场景比较主流服务商。",
+    "Public WiFi Safety": "公共 WiFi 安全",
+    "A practical checklist for airports, hotels, cafes and shared networks.": "适用于机场、酒店、咖啡馆和共享网络的实用检查清单。",
+    "DNS Setup Guide": "DNS 设置指南",
+    "Cloudflare, Google, Quad9 and encrypted DNS configuration steps.": "Cloudflare、Google、Quad9 与加密 DNS 的配置步骤。",
+    "Troubleshooting": "网络故障排除",
+    "Step-by-step diagnostics for slow browsing, high ping and WiFi drops.": "针对网页慢、高延迟和 WiFi 掉线的分步诊断。",
+    "IP Lookup": "IP 查询",
+    "Check public IP, geolocation, ISP and HTTP latency from your browser.": "在浏览器中检查公网 IP、地理位置、ISP 和 HTTP 延迟。",
+    "Country Deep Dive": "国家深度分析",
+    "Explore synced country metrics, ISP comparisons and 12-month network trends.": "查看同步后的国家指标、ISP 对比和 12 个月网络趋势。",
+    "Free, global and privacy-aware network performance tools for everyone.": "面向全球用户的免费、隐私友好网络性能工具。",
+    "Network Toolkit": "网络工具箱",
+    "DNS Guide": "DNS 指南",
+    "VPN Reviews": "VPN 评测",
+    "Country Detail": "国家详情",
+    "Trust": "信任与合规",
+    "WiFi Safety": "WiFi 安全",
+    "Privacy & Disclosure": "隐私与广告披露",
+    "About & Privacy": "关于、隐私与广告披露",
+    "About": "关于",
+    "Privacy Policy": "隐私政策",
+    "Ad Disclosure": "广告披露",
+    "About GlobalPing": "关于 GlobalPing",
+    "GlobalPing provides free, accurate and accessible network testing tools, rankings and security guidance for global internet users.": "GlobalPing 为全球互联网用户提供免费、准确且易用的网络测速工具、排名和安全指南。",
+    "Contact:": "联系：",
+    "Advertising Disclosure": "广告披露",
+    "Global Internet Speed Rankings": "全球网速排名",
+    "Compare average connection performance across leading territories with searchable fixed and mobile datasets.": "通过可搜索的固定宽带和移动网络数据集比较主要地区的平均连接表现。",
+    "World speed heat view": "世界网速热力视图",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "颜色更深的节点表示最新同步公开数据集中位下载速度更高。",
+    "Filters": "筛选",
+    "Fixed Broadband": "固定宽带",
+    "Mobile Network": "移动网络",
+    "All Regions": "全部地区",
+    "Asia": "亚洲",
+    "Europe": "欧洲",
+    "Americas": "美洲",
+    "Middle East": "中东",
+    "Loading source status...": "正在加载数据源状态...",
+    "Rank": "排名",
+    "Country": "国家",
+    "Latency": "延迟",
+    "Trend": "趋势",
+    "Network Toolkit": "网络工具箱",
+    "Browser-safe tools for identifying your public network, measuring HTTP latency and preparing common diagnostics.": "用于识别公网网络、测量 HTTP 延迟和准备常见诊断的浏览器安全工具。",
+    "Show public IP, location and ISP from a free geolocation API.": "通过免费地理定位 API 显示公网 IP、位置和 ISP。",
+    "Open Tool": "打开工具",
+    "Ping Test": "Ping 测试",
+    "Estimate latency with repeat HTTP requests from this browser.": "通过浏览器重复 HTTP 请求估算延迟。",
+    "Port Check": "端口检查",
+    "Proxy Check": "代理检查",
+    "WiFi Analyzer": "WiFi 分析",
+    "DNS Resolver": "DNS 解析器",
+    "Your IP result": "你的 IP 结果",
+    "Click IP Lookup to query ipapi.co from your browser.": "点击 IP 查询，从浏览器请求 ipapi.co。",
+    "Network Troubleshooting": "网络故障排除",
+    "Start with the symptom, then follow a tight diagnostic path before changing router or ISP settings.": "先选择症状，再按诊断路径排查，之后再调整路由器或 ISP 设置。",
+    "Step 1: What's your issue?": "步骤 1：你遇到什么问题？",
+    "Slow browsing": "网页加载慢",
+    "Can't connect": "无法连接",
+    "High ping": "高延迟",
+    "WiFi drops": "WiFi 掉线",
+    "Choose an issue to see the first recommended checks.": "选择问题后查看首轮推荐检查。",
+    "Popular fixes": "常见修复",
+    "Public WiFi Safety Guide": "公共 WiFi 安全指南",
+    "Protect yourself on airports, hotels, cafes and conference networks before you open email or banking apps.": "在机场、酒店、咖啡馆和会议网络中，打开邮件或银行应用前先保护自己。",
+    "Pre-flight checklist": "连接前检查清单",
+    "Review VPNs": "查看 VPN",
+    "Open Toolkit": "打开工具箱",
+    "DNS Setup Guide": "DNS 设置指南",
+    "Faster, safer and more private name resolution with public DNS, DoH and DoT configuration references.": "通过公共 DNS、DoH 与 DoT 配置参考获得更快、更安全、更私密的解析。",
+    "Provider": "服务商",
+    "Primary": "主 DNS",
+    "Secondary": "备用 DNS",
+    "DoH Endpoint": "DoH 端点",
+    "Platform configuration": "平台配置",
+    "Country speed profile": "国家网速画像",
+    "Loading country data...": "正在加载国家数据...",
+    "Fixed broadband, mobile speed, ISP comparison and 12-month trend signals.": "固定宽带、移动网速、ISP 对比和 12 个月趋势信号。",
+    "Annual Change": "年度变化",
+    "ISP comparison": "ISP 对比",
+    "Rating": "评分",
+    "12-month trend": "12 个月趋势",
+    "Country insight": "国家洞察",
+    "Loading regional network insight.": "正在加载区域网络洞察。",
+    "HTTP Ping Test": "HTTP Ping 测试",
+    "Measure average HTTP latency from your browser using repeat edge requests.": "通过重复边缘请求测量浏览器平均 HTTP 延迟。",
+    "Start Test": "开始测试",
+    "Proxy / VPN Check": "代理 / VPN 检测",
+    "Run IP Lookup before and after connecting. Changes in country, ASN or ISP indicate the tunnel is active.": "连接前后运行 IP 查询；国家、ASN 或 ISP 变化表示隧道已生效。",
+    "Check Current Network": "检查当前网络",
+    "Compare VPN Providers": "比较 VPN 服务商",
+    "Port Check Guide": "端口检查指南",
+    "Checklist": "检查清单",
+    "All": "全部",
+    "Streaming": "流媒体",
+    "Travel": "旅行",
+    "Free / Paid": "免费 / 付费",
+    "Proxy status board": "代理状态看板",
+    "Synced feed": "同步数据源",
+    "Location": "位置",
+    "Type": "类型",
+    "Status": "状态",
+    "Download": "下载",
+    "Upload": "上传"
+  },
+  es: {
+    "Proxy & VPN Reviews": "Reseñas de Proxy y VPN",
+    "Public WiFi Safety": "Seguridad WiFi Pública",
+    "DNS Setup Guide": "Guía de DNS",
+    "Troubleshooting": "Solución de Problemas",
+    "IP Lookup": "Consulta IP",
+    "Country Deep Dive": "Análisis por País",
+    "Network Toolkit": "Herramientas de Red",
+    "Privacy & Disclosure": "Privacidad y Divulgación",
+    "About & Privacy": "Acerca de y Privacidad",
+    "Privacy Policy": "Política de Privacidad",
+    "Ad Disclosure": "Divulgación Publicitaria",
+    "Global Internet Speed Rankings": "Ranking Global de Velocidad",
+    "World speed heat view": "Mapa de calor de velocidad",
+    "Filters": "Filtros",
+    "Fixed Broadband": "Banda Ancha Fija",
+    "Mobile Network": "Red Móvil",
+    "All Regions": "Todas las Regiones",
+    "Rank": "Rango",
+    "Country": "País",
+    "Latency": "Latencia",
+    "Trend": "Tendencia",
+    "Open Tool": "Abrir Herramienta",
+    "Ping Test": "Prueba de Ping",
+    "Port Check": "Comprobación de Puertos",
+    "Proxy Check": "Comprobación de Proxy",
+    "Your IP result": "Resultado de tu IP",
+    "Network Troubleshooting": "Diagnóstico de Red",
+    "Public WiFi Safety Guide": "Guía de WiFi Público",
+    "Provider": "Proveedor",
+    "Primary": "Primario",
+    "Secondary": "Secundario",
+    "Platform configuration": "Configuración por plataforma",
+    "Country speed profile": "Perfil de velocidad del país",
+    "Annual Change": "Cambio anual",
+    "ISP comparison": "Comparación de ISP",
+    "Rating": "Puntuación",
+    "12-month trend": "Tendencia de 12 meses",
+    "Country insight": "Información del país",
+    "HTTP Ping Test": "Prueba HTTP Ping",
+    "Start Test": "Iniciar Prueba",
+    "Proxy / VPN Check": "Comprobación Proxy / VPN",
+    "Port Check Guide": "Guía de Puertos",
+    "Checklist": "Lista de verificación",
+    "All": "Todo",
+    "Streaming": "Streaming",
+    "Travel": "Viajes",
+    "Free / Paid": "Gratis / Pago",
+    "Status": "Estado"
+  },
+  pt: {
+    "Proxy & VPN Reviews": "Avaliações de Proxy e VPN",
+    "Public WiFi Safety": "Segurança em WiFi público",
+    "DNS Setup Guide": "Guia de configuração DNS",
+    "Troubleshooting": "Solução de problemas",
+    "IP Lookup": "Consulta de IP",
+    "Country Deep Dive": "Análise por país",
+    "Network Toolkit": "Ferramentas de rede",
+    "Privacy & Disclosure": "Privacidade e divulgação",
+    "Privacy Policy": "Política de privacidade",
+    "Ad Disclosure": "Divulgação de anúncios",
+    "Global Internet Speed Rankings": "Classificações globais de velocidade",
+    "World speed heat view": "Mapa de calor de velocidade",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Nós mais escuros indicam maiores velocidades medianas de download no conjunto público sincronizado",
+    "Filters": "Filtros",
+    "Fixed Broadband": "Banda larga fixa",
+    "Mobile Network": "Rede móvel",
+    "All Regions": "Todas as regiões",
+    "Rank": "Classificação",
+    "Country": "País",
+    "Latency": "Latência",
+    "Trend": "Tendência",
+    "Open Tool": "Abrir ferramenta",
+    "Ping Test": "Teste de ping",
+    "Port Check": "Verificação de porta",
+    "Proxy Check": "Verificação de proxy",
+    "Your IP result": "Resultado do seu IP",
+    "Network Troubleshooting": "Diagnóstico de rede",
+    "Public WiFi Safety Guide": "Guia de segurança em WiFi público",
+    "Provider": "Provedor",
+    "Primary": "Primário",
+    "Secondary": "Secundário",
+    "Platform configuration": "Configuração por plataforma",
+    "Country speed profile": "Perfil de velocidade do país",
+    "Annual Change": "Mudança anual",
+    "ISP comparison": "Comparação de ISP",
+    "Rating": "Avaliação",
+    "12-month trend": "Tendência de 12 meses",
+    "Country insight": "Insight do país",
+    "HTTP Ping Test": "Teste HTTP Ping",
+    "Start Test": "Iniciar teste",
+    "Proxy / VPN Check": "Verificação Proxy / VPN",
+    "Port Check Guide": "Guia de verificação de portas",
+    "Checklist": "Lista de verificação",
+    "All": "Todos",
+    "Streaming": "Streaming",
+    "Travel": "Viagem",
+    "Free / Paid": "Grátis / Pago",
+    "Status": "Status"
+  },
+  fr: {
+    "Proxy & VPN Reviews": "Avis Proxy et VPN",
+    "Public WiFi Safety": "Sécurité WiFi publique",
+    "DNS Setup Guide": "Guide de configuration DNS",
+    "Troubleshooting": "Dépannage",
+    "IP Lookup": "Recherche IP",
+    "Country Deep Dive": "Analyse par pays",
+    "Network Toolkit": "Outils réseau",
+    "Privacy & Disclosure": "Confidentialité et divulgation",
+    "Privacy Policy": "Politique de confidentialité",
+    "Ad Disclosure": "Divulgation publicitaire",
+    "Global Internet Speed Rankings": "Classements mondiaux de vitesse",
+    "World speed heat view": "Carte thermique mondiale",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Les points plus sombres indiquent des vitesses médianes de téléchargement plus élevées dans le dernier jeu de données public synchronisé",
+    "Filters": "Filtres",
+    "Fixed Broadband": "Haut débit fixe",
+    "Mobile Network": "Réseau mobile",
+    "All Regions": "Toutes les régions",
+    "Rank": "Rang",
+    "Country": "Pays",
+    "Latency": "Latence",
+    "Trend": "Tendance",
+    "Open Tool": "Ouvrir l’outil",
+    "Ping Test": "Test ping",
+    "Port Check": "Vérification de port",
+    "Proxy Check": "Vérification proxy",
+    "Your IP result": "Résultat de votre IP",
+    "Network Troubleshooting": "Dépannage réseau",
+    "Public WiFi Safety Guide": "Guide de sécurité WiFi publique",
+    "Provider": "Fournisseur",
+    "Primary": "Primaire",
+    "Secondary": "Secondaire",
+    "Platform configuration": "Configuration par plateforme",
+    "Country speed profile": "Profil de vitesse du pays",
+    "Annual Change": "Variation annuelle",
+    "ISP comparison": "Comparaison des FAI",
+    "Rating": "Note",
+    "12-month trend": "Tendance sur 12 mois",
+    "Country insight": "Aperçu du pays",
+    "HTTP Ping Test": "Test HTTP Ping",
+    "Start Test": "Lancer le test",
+    "Proxy / VPN Check": "Vérification Proxy / VPN",
+    "Port Check Guide": "Guide de vérification des ports",
+    "Checklist": "Liste de contrôle",
+    "All": "Tous",
+    "Streaming": "Streaming",
+    "Travel": "Voyage",
+    "Free / Paid": "Gratuit / Payant",
+    "Status": "Statut"
+  },
+  de: {
+    "Proxy & VPN Reviews": "Proxy- und VPN-Bewertungen",
+    "Public WiFi Safety": "Sicherheit in öffentlichem WLAN",
+    "DNS Setup Guide": "DNS-Einrichtungsanleitung",
+    "Troubleshooting": "Fehlerbehebung",
+    "IP Lookup": "IP-Abfrage",
+    "Country Deep Dive": "Länderanalyse",
+    "Network Toolkit": "Netzwerk-Tools",
+    "Privacy & Disclosure": "Datenschutz und Offenlegung",
+    "Privacy Policy": "Datenschutzerklärung",
+    "Ad Disclosure": "Werbehinweis",
+    "Global Internet Speed Rankings": "Globale Geschwindigkeitsrankings",
+    "World speed heat view": "Weltweite Geschwindigkeitskarte",
+    "Darker nodes indicate higher median download speeds from the latest synced public dataset.": "Dunklere Punkte zeigen höhere mediane Download-Geschwindigkeiten im neuesten synchronisierten öffentlichen Datensatz",
+    "Filters": "Filter",
+    "Fixed Broadband": "Festnetz-Breitband",
+    "Mobile Network": "Mobilfunknetz",
+    "All Regions": "Alle Regionen",
+    "Rank": "Rang",
+    "Country": "Land",
+    "Latency": "Latenz",
+    "Trend": "Trend",
+    "Open Tool": "Tool öffnen",
+    "Ping Test": "Ping-Test",
+    "Port Check": "Port-Prüfung",
+    "Proxy Check": "Proxy-Prüfung",
+    "Your IP result": "Ihr IP-Ergebnis",
+    "Network Troubleshooting": "Netzwerkdiagnose",
+    "Public WiFi Safety Guide": "Leitfaden für öffentliches WLAN",
+    "Provider": "Anbieter",
+    "Primary": "Primär",
+    "Secondary": "Sekundär",
+    "Platform configuration": "Plattformkonfiguration",
+    "Country speed profile": "Geschwindigkeitsprofil des Landes",
+    "Annual Change": "Jährliche Änderung",
+    "ISP comparison": "ISP-Vergleich",
+    "Rating": "Bewertung",
+    "12-month trend": "12-Monats-Trend",
+    "Country insight": "Länder-Einblick",
+    "HTTP Ping Test": "HTTP-Ping-Test",
+    "Start Test": "Test starten",
+    "Proxy / VPN Check": "Proxy- / VPN-Prüfung",
+    "Port Check Guide": "Port-Prüfungsleitfaden",
+    "Checklist": "Checkliste",
+    "All": "Alle",
+    "Streaming": "Streaming",
+    "Travel": "Reisen",
+    "Free / Paid": "Kostenlos / Bezahlt",
+    "Status": "Status"
+  },
+  ja: {
+    "Proxy & VPN Reviews": "プロキシとVPNレビュー",
+    "Public WiFi Safety": "公共WiFi安全",
+    "DNS Setup Guide": "DNS設定ガイド",
+    "Troubleshooting": "トラブルシューティング",
+    "IP Lookup": "IP検索",
+    "Country Deep Dive": "国別詳細分析",
+    "Network Toolkit": "ネットワークツール",
+    "Privacy & Disclosure": "プライバシーと広告開示",
+    "About & Privacy": "概要とプライバシー",
+    "Privacy Policy": "プライバシーポリシー",
+    "Ad Disclosure": "広告開示",
+    "Global Internet Speed Rankings": "世界インターネット速度ランキング",
+    "World speed heat view": "世界速度ヒートビュー",
+    "Filters": "フィルター",
+    "Fixed Broadband": "固定ブロードバンド",
+    "Mobile Network": "モバイルネットワーク",
+    "All Regions": "すべての地域",
+    "Rank": "順位",
+    "Country": "国",
+    "Latency": "遅延",
+    "Trend": "傾向",
+    "Open Tool": "ツールを開く",
+    "Ping Test": "Pingテスト",
+    "Port Check": "ポート確認",
+    "Proxy Check": "プロキシ確認",
+    "Your IP result": "IP結果",
+    "Network Troubleshooting": "ネットワーク診断",
+    "Public WiFi Safety Guide": "公共WiFi安全ガイド",
+    "Provider": "プロバイダー",
+    "Primary": "プライマリ",
+    "Secondary": "セカンダリ",
+    "Platform configuration": "プラットフォーム設定",
+    "Country speed profile": "国別速度プロフィール",
+    "Annual Change": "年間変化",
+    "ISP comparison": "ISP比較",
+    "Rating": "評価",
+    "12-month trend": "12か月トレンド",
+    "Country insight": "国別インサイト",
+    "HTTP Ping Test": "HTTP Pingテスト",
+    "Start Test": "テスト開始",
+    "Proxy / VPN Check": "プロキシ / VPN確認",
+    "Port Check Guide": "ポート確認ガイド",
+    "Checklist": "チェックリスト",
+    "All": "すべて",
+    "Streaming": "ストリーミング",
+    "Travel": "旅行",
+    "Free / Paid": "無料 / 有料",
+    "Status": "状態"
+  }
+};
+
+function applyTextTranslations(lang) {
+  const map = textTranslations[lang] || {};
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!parent || ["SCRIPT", "STYLE", "NOSCRIPT", "OPTION"].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+      const text = node.textContent.trim();
+      if (!text || !/[A-Za-z]/.test(text)) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach((node) => {
+    if (!node.__globalpingSourceText) node.__globalpingSourceText = node.textContent.trim();
+    const source = node.__globalpingSourceText;
+    const next = lang === "en" ? source : (map[source] || source);
+    const leading = node.textContent.match(/^\s*/)?.[0] || "";
+    const trailing = node.textContent.match(/\s*$/)?.[0] || "";
+    node.textContent = leading + next + trailing;
+  });
+}
 
 // 支持的语言列表
 const supportedLangs = ["en", "zh", "es", "pt", "fr", "de", "ja"];
@@ -455,6 +854,7 @@ function initLanguage() {
       }
     });
     document.documentElement.lang = lang;
+    applyTextTranslations(lang);
     localStorage.setItem("globalping-lang", lang);
   };
 
@@ -467,7 +867,7 @@ function initLanguage() {
       renderHistory();
       renderRankings().catch(console.error);
       hydrateDataLists().catch(console.error);
-      renderCountryDetail().catch(console.error);
+      renderCountryDetail().then(() => applyTextTranslations(currentLang)).catch(console.error);
     });
   });
   applyLanguage(currentLang);
@@ -500,10 +900,11 @@ async function measureLatency(traceEndpoint = "https://www.cloudflare.com/cdn-cg
     }
   }
   const valid = attempts.filter((value) => Number.isFinite(value));
-  if (!valid.length) return { ping: 0, jitter: 0 };
+  const loss = Math.round(((attempts.length - valid.length) / attempts.length) * 100);
+  if (!valid.length) return { ping: 0, jitter: 0, loss: 100 };
   const ping = valid.reduce((a, b) => a + b, 0) / valid.length;
   const jitter = valid.reduce((sum, value) => sum + Math.abs(value - ping), 0) / valid.length;
-  return { ping: Math.round(ping), jitter: Math.round(jitter) };
+  return { ping: Math.round(ping), jitter: Math.round(jitter), loss };
 }
 
 async function measureDownload(endpoint, bytes, onProgress) {
@@ -562,6 +963,7 @@ async function runSpeedTest() {
     const latency = await measureLatency(speedConfig.traceEndpoint);
     ping = latency.ping;
     jitter = latency.jitter;
+    var loss = latency.loss;
     download = await measureDownload(speedConfig.downloadEndpoint, node.downloadBytes, setGauge);
     setGauge(download);
     try {
@@ -583,6 +985,7 @@ async function runSpeedTest() {
     upload: Number(fmt(upload, 1)),
     ping,
     jitter,
+    loss,
     node: node.label
   };
   $$("[data-metric]").forEach((el) => {
@@ -735,7 +1138,7 @@ function drawCountry(country, updated) {
     trend.innerHTML = country.trend.map((row) => `<div><span class="fine">${row.month}</span><div class="bar"><span style="width:${Math.round(row.download / max * 100)}%"></span></div><strong>${row.download} ${unitSpeed}</strong></div>`).join("");
   }
   const insight = $("[data-country-insight]");
-  if (insight) insight.textContent = `${country.country} is tracked in the ${country.region} cohort with ISP-level estimates and rolling 12-month speed trend data for search landing pages and user comparison.`;
+  if (insight) insight.textContent = t("countryInsight", "{country} is tracked in the {region} cohort with ISP-level estimates and rolling 12-month speed trend data for search landing pages and user comparison.").replace("{country}", country.country).replace("{region}", country.region);
 }
 
 async function hydrateDataLists() {
@@ -834,7 +1237,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderHistory();
   renderRankings().catch(console.error);
   hydrateDataLists().catch(console.error);
-  renderCountryDetail().catch(console.error);
+  renderCountryDetail().then(() => applyTextTranslations(currentLang)).catch(console.error);
   initSpeedNodes().catch(console.error);
   initTabs();
   initTroubleshooter();

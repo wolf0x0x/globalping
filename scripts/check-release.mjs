@@ -8,7 +8,7 @@ const expectedAds = "google.com, pub-8695398658548679, DIRECT, f08c47fec0942fa0"
 const tagId = "G-DDHNR5DW95";
 
 async function collectHtml(base) {
-  const files = [resolve(base, "index.html")];
+  const files = [resolve(base, "index.html"), resolve(base, "about.html"), resolve(base, "privacy.html")];
   for (const name of await readdir(resolve(base, "pages"))) {
     if (name.endsWith(".html")) files.push(join(base, "pages", name));
   }
@@ -40,6 +40,7 @@ for (const base of targets) {
     if (!html.includes('rel="icon"') || !html.includes('assets/favicon.svg')) failures.push(`${rel} is missing the SVG favicon.`);
     if (!html.includes('rel="manifest"') || !html.includes('site.webmanifest')) failures.push(`${rel} is missing the web manifest.`);
     if (!html.includes("data-lang-select")) failures.push(`${rel} is missing the language selector.`);
+    if (!html.includes("data-i18n") && !html.includes("Privacy")) failures.push(`${rel} has no translatable UI markers.`);
     if (!html.includes('hreflang="x-default"')) failures.push(`${rel} is missing hreflang alternates.`);
     if (!html.includes('type="application/ld+json"') || !html.includes("data-schema")) failures.push(`${rel} is missing JSON-LD schema.`);
   }

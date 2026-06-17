@@ -67,11 +67,14 @@
             </svg>
             <div class="gauge-center"><div><div class="speed-value" data-speed-value>0</div><div class="speed-unit">Mbps</div></div></div>
           </div>
-          <button class="btn primary" data-start-test>GO</button>
+          <div class="input-row"><select aria-label="Server" data-speed-node data-i18n="serverLabel" data-i18n-attr="aria-label"><option>Loading speed nodes...</option></select><button class="btn primary" data-start-test data-i18n="btnGo">GO</button></div>
           <div class="grid grid-2" style="margin-top:18px">
             <div class="metric card"><span class="fine" data-i18n="metricDown">Download</span><b><span data-metric="download">0</span></b></div>
             <div class="metric card"><span class="fine" data-i18n="metricUp">Upload</span><b><span data-metric="upload">0</span></b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricPing">Ping</span><b><span data-metric="ping">0</span> ms</b></div>
+            <div class="metric card"><span class="fine" data-i18n="metricJitter">Jitter</span><b><span data-metric="jitter">0</span> ms</b></div>
           </div>
+          <p class="fine"><span data-i18n="metricLoss">Packet Loss</span>: <span data-metric="loss">0</span>%</p>
         </article>
       </div>
     </section>
@@ -94,7 +97,7 @@
           <a class="card tool-card" href="pages/public-wifi-security.html"><div class="icon">锁</div><h3>Public WiFi Safety</h3><p class="muted">A practical checklist for airports, hotels, cafes and shared networks.</p></a>
           <a class="card tool-card" href="pages/dns-guide.html"><div class="icon">DNS</div><h3>DNS Setup Guide</h3><p class="muted">Cloudflare, Google, Quad9 and encrypted DNS configuration steps.</p></a>
           <a class="card tool-card" href="pages/network-troubleshooting.html"><div class="icon">诊</div><h3>Troubleshooting</h3><p class="muted">Step-by-step diagnostics for slow browsing, high ping and WiFi drops.</p></a>
-          <a class="card tool-card" href="pages/network-toolkit.html"><div class="icon">IP</div><h3>IP Lookup</h3><p class="muted">Check public IP, geolocation, ISP and HTTP latency from your browser.</p></a>
+          <a class="card tool-card" href="pages/ip-lookup.html"><div class="icon">IP</div><h3>IP Lookup</h3><p class="muted">Check public IP, geolocation, ISP and HTTP latency from your browser.</p></a>
           <a class="card tool-card" href="pages/country-detail.html"><div class="icon">图</div><h3>Country Deep Dive</h3><p class="muted">Explore synced country metrics, ISP comparisons and 12-month network trends.</p></a>
         </div>
       </div>
@@ -110,7 +113,7 @@
       <div><a class="brand" href="index.html"><span class="brand-mark">G</span> GlobalPing</a><p class="muted">Free, global and privacy-aware network performance tools for everyone.</p></div>
       <div><strong data-i18n="footerTools">Tools</strong><a href="pages/speed-test.html" data-i18n="navSpeed">Speed Test</a><a href="pages/network-toolkit.html" data-i18n="navTools">Network Toolkit</a><a href="pages/dns-guide.html">DNS Guide</a></div>
       <div><strong data-i18n="footerInsights">Insights</strong><a href="pages/global-rankings.html" data-i18n="navRank">Global Rankings</a><a href="pages/vpn-reviews.html">VPN Reviews</a><a href="pages/country-detail.html">Country Detail</a></div>
-      <div><strong data-i18n="footerTrust">Trust</strong><a href="pages/public-wifi-security.html">WiFi Safety</a><a href="pages/network-troubleshooting.html">Troubleshooting</a><a href="pages/about-privacy.html">Privacy & Disclosure</a></div>
+      <div><strong data-i18n="footerTrust">Trust</strong><a href="pages/public-wifi-security.html">WiFi Safety</a><a href="pages/network-troubleshooting.html">Troubleshooting</a><a href="privacy.html">Privacy & Disclosure</a><a href="about.html">About</a></div>
     </div>
   </footer>
 </body>
