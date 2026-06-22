@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "provider": "Cloudflare Speed Test",
   "downloadEndpoint": "https://speed.cloudflare.com/__down",
   "uploadEndpoint": "https://speed.cloudflare.com/__up",
