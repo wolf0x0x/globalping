@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "source": "https://www.speedtest.net/global-index",
   "sourceStatus": "synced",
   "fixed": [
@@ -8,8 +8,8 @@
       "country": "United Arab Emirates",
       "flag": "AE",
       "region": "Middle East",
-      "download": 761,
-      "upload": 342,
+      "download": 752,
+      "upload": 338,
       "latency": null,
       "trend": "flat"
     },
@@ -18,8 +18,8 @@
       "country": "Qatar",
       "flag": "QA",
       "region": "Middle East",
-      "download": 626,
-      "upload": 282,
+      "download": 616,
+      "upload": 277,
       "latency": null,
       "trend": "flat"
     },
@@ -28,8 +28,8 @@
       "country": "South Korea",
       "flag": "KR",
       "region": "Asia",
-      "download": 373,
-      "upload": 168,
+      "download": 377,
+      "upload": 170,
       "latency": null,
       "trend": "flat"
     },
@@ -38,7 +38,7 @@
       "country": "Brazil",
       "flag": "BR",
       "region": "Americas",
-      "download": 313,
+      "download": 314,
       "upload": 141,
       "latency": null,
       "trend": "flat"
@@ -48,8 +48,8 @@
       "country": "United States",
       "flag": "US",
       "region": "Americas",
-      "download": 291,
-      "upload": 131,
+      "download": 285,
+      "upload": 128,
       "latency": null,
       "trend": "flat"
     },
@@ -58,8 +58,8 @@
       "country": "Denmark",
       "flag": "DK",
       "region": "Europe",
-      "download": 264,
-      "upload": 119,
+      "download": 247,
+      "upload": 111,
       "latency": null,
       "trend": "flat"
     },
@@ -68,7 +68,7 @@
       "country": "Singapore",
       "flag": "SG",
       "region": "Asia",
-      "download": 240,
+      "download": 239,
       "upload": 108,
       "latency": null,
       "trend": "flat"
@@ -78,7 +78,7 @@
       "country": "China",
       "flag": "CN",
       "region": "Asia",
-      "download": 224,
+      "download": 225,
       "upload": 101,
       "latency": null,
       "trend": "flat"
@@ -88,8 +88,8 @@
       "country": "France",
       "flag": "FR",
       "region": "Europe",
-      "download": 207,
-      "upload": 93,
+      "download": 200,
+      "upload": 90,
       "latency": null,
       "trend": "flat"
     },
@@ -98,8 +98,8 @@
       "country": "Switzerland",
       "flag": "CH",
       "region": "Europe",
-      "download": 187,
-      "upload": 84,
+      "download": 188,
+      "upload": 85,
       "latency": null,
       "trend": "flat"
     },
@@ -108,8 +108,8 @@
       "country": "Spain",
       "flag": "ES",
       "region": "Europe",
-      "download": 185,
-      "upload": 83,
+      "download": 181,
+      "upload": 81,
       "latency": null,
       "trend": "flat"
     },
@@ -118,8 +118,8 @@
       "country": "Thailand",
       "flag": "TH",
       "region": "Asia",
-      "download": 173,
-      "upload": 78,
+      "download": 172,
+      "upload": 77,
       "latency": null,
       "trend": "flat"
     }
