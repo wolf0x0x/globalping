@@ -13,7 +13,7 @@
     "source": "https://nordvpn.com/",
     "sourceStatus": "warning",
     "httpStatus": 403,
-    "lastChecked": "2026-09-24T07:35:12.486Z"
+    "lastChecked": "2026-09-25T07:46:55.819Z"
   },
   {
     "name": "ExpressVPN",
@@ -29,7 +29,7 @@
     "source": "https://www.expressvpn.com/",
     "sourceStatus": "online",
     "httpStatus": 200,
-    "lastChecked": "2026-09-24T07:35:12.486Z"
+    "lastChecked": "2026-09-25T07:46:55.819Z"
   },
   {
     "name": "Surfshark",
@@ -45,7 +45,7 @@
     "source": "https://surfshark.com/",
     "sourceStatus": "online",
     "httpStatus": 200,
-    "lastChecked": "2026-09-24T07:35:12.486Z"
+    "lastChecked": "2026-09-25T07:46:55.819Z"
   },
   {
     "name": "Proton VPN",
@@ -61,6 +61,6 @@
     "source": "https://protonvpn.com/",
     "sourceStatus": "online",
     "httpStatus": 200,
-    "lastChecked": "2026-09-24T07:35:12.486Z"
+    "lastChecked": "2026-09-25T07:46:55.819Z"
   }
 ]
