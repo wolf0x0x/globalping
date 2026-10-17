@@ -24,7 +24,7 @@
     "status": "unchecked"
   },
   {
-    "ip": "72.195.34.42:4145",
+    "ip": "174.64.199.82:4145",
     "location": "US",
     "type": "SOCKS5",
     "speed": "Unverified",
@@ -32,16 +32,24 @@
     "status": "unchecked"
   },
   {
-    "ip": "192.111.137.37:18762",
+    "ip": "192.252.208.67:14287",
+    "location": "US",
+    "type": "SOCKS5",
+    "speed": "Unverified",
+    "latency": null,
+    "status": "unchecked"
+  },
+  {
+    "ip": "192.111.135.18:18301",
+    "location": "US",
+    "type": "SOCKS5",
+    "speed": "Unverified",
+    "latency": null,
+    "status": "unchecked"
+  },
+  {
+    "ip": "192.111.139.163:19404",
     "location": "CA",
-    "type": "SOCKS5",
-    "speed": "Unverified",
-    "latency": null,
-    "status": "unchecked"
-  },
-  {
-    "ip": "192.111.135.17:18302",
-    "location": "US",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -104,23 +112,7 @@
     "status": "unchecked"
   },
   {
-    "ip": "174.75.211.193:4145",
-    "location": "US",
-    "type": "SOCKS5",
-    "speed": "Unverified",
-    "latency": null,
-    "status": "unchecked"
-  },
-  {
-    "ip": "142.54.232.6:4145",
-    "location": "US",
-    "type": "SOCKS5",
-    "speed": "Unverified",
-    "latency": null,
-    "status": "unchecked"
-  },
-  {
-    "ip": "184.170.251.30:11288",
+    "ip": "67.210.146.50:11080",
     "location": "US",
     "type": "SOCKS5",
     "speed": "Unverified",
@@ -136,16 +128,16 @@
     "status": "unchecked"
   },
   {
-    "ip": "121.169.46.116:1090",
-    "location": "KR",
+    "ip": "202.40.190.74:1080",
+    "location": "BD",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
     "status": "unchecked"
   },
   {
-    "ip": "5.255.117.127:1080",
-    "location": "NL",
+    "ip": "103.162.57.42:1080",
+    "location": "BD",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -170,14 +162,6 @@
   {
     "ip": "220.158.232.118:1080",
     "location": "KH",
-    "type": "SOCKS5",
-    "speed": "Unverified",
-    "latency": null,
-    "status": "unchecked"
-  },
-  {
-    "ip": "38.49.210.79:40000",
-    "location": "PH",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -216,8 +200,8 @@
     "status": "unchecked"
   },
   {
-    "ip": "101.36.104.239:10808",
-    "location": "JP",
+    "ip": "123.58.219.171:10808",
+    "location": "HK",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -248,14 +232,6 @@
     "status": "unchecked"
   },
   {
-    "ip": "94.230.127.180:1080",
-    "location": "RU",
-    "type": "SOCKS5",
-    "speed": "Unverified",
-    "latency": null,
-    "status": "unchecked"
-  },
-  {
     "ip": "47.245.165.201:1080",
     "location": "DE",
     "type": "SOCKS5",
@@ -264,8 +240,16 @@
     "status": "unchecked"
   },
   {
-    "ip": "202.91.41.102:1080",
-    "location": "BD",
+    "ip": "150.136.58.221:1080",
+    "location": "US",
+    "type": "SOCKS5",
+    "speed": "Unverified",
+    "latency": null,
+    "status": "unchecked"
+  },
+  {
+    "ip": "51.15.253.45:8080",
+    "location": "FR",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -274,6 +258,14 @@
   {
     "ip": "79.76.59.115:1080",
     "location": "GB",
+    "type": "SOCKS5",
+    "speed": "Unverified",
+    "latency": null,
+    "status": "unchecked"
+  },
+  {
+    "ip": "129.151.128.225:1080",
+    "location": "AE",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
@@ -296,15 +288,23 @@
     "status": "unchecked"
   },
   {
-    "ip": "202.62.50.52:1080",
-    "location": "KH",
+    "ip": "185.133.239.244:16299",
+    "location": "DE",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
     "status": "unchecked"
   },
   {
-    "ip": "195.91.129.101:1337",
+    "ip": "103.206.68.241:1080",
+    "location": "MN",
+    "type": "SOCKS5",
+    "speed": "Unverified",
+    "latency": null,
+    "status": "unchecked"
+  },
+  {
+    "ip": "212.48.150.38:1080",
     "location": "RU",
     "type": "SOCKS5",
     "speed": "Unverified",
@@ -312,8 +312,8 @@
     "status": "unchecked"
   },
   {
-    "ip": "5.255.123.162:1080",
-    "location": "NL",
+    "ip": "65.21.252.66:10801",
+    "location": "FI",
     "type": "SOCKS5",
     "speed": "Unverified",
     "latency": null,
